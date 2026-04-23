@@ -1,0 +1,10836 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "40496be1-fc99-4d5e-a675-40728d48cc06")
+	(paper "A3")
+	(lib_symbols
+		(symbol "74xx:74HC138"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "74HC138"
+				(at 2.54 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "demux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SSOP*5.3x6.2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC138_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74HC138_1_1"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{E0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{E1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "~{Y0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "~{Y1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "~{Y2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{Y3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~{Y4}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{Y5}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "~{Y6}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{Y7}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC595D"
+				(at 0 13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5947"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "361838"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.126USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Logic ICs,Registers"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "74HC595D,118"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supply Voltage" "2V~6V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Output Type" "Tri-State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Number Of Bits Per Element" "8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "40°C~+125°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Function" "串行至并行或串行"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Series" "74HC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C5947"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Shift Register, 1 In, 8 Out, 74HC595D,118_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "Q1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "Q2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "Q3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "Q4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Q5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "Q6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "Q7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "Q0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "DS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OE#"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "STCP"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SHCP"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "MR#"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "Q7S"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Transistors:PNP,SS8550 Y2 200-350"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 4.8514 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SS8550 Y2 200-350"
+				(at 4.8514 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810161212_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8550-Y2-RANGE-200-350_C8542.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "25V 300mW 200@100mA,1V 1.5A PNP SOT-23 Bipolar (BJT) ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C8542"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "1165634"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.018USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Transistors,Bipolar Transistors - BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "SS8550 Y2(RANGE:200-350)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Transition Frequency (fT)" "100MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "-55°C~+150°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector Cut-Off Current (Icbo)" "100nA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Transistor Type" "PNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DC Current Gain (hFE@Ic,Vce)" "200@100mA,1V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Dissipation (Pd)" "300mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector Current (Ic)" "1.5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@800mA,80mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector-Emitter Breakdown Voltage (Vceo)" "25V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Q_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PNP,SS8550 Y2 200-350_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PNP,SS8550 Y2 200-350_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "easter egg:\nadditional column on 32 / 40 / 48 / 56"
+		(exclude_from_sim no)
+		(at 36.83 194.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1068d60e-380d-44bd-913b-cdb654e0dcf8")
+	)
+	(text "least significant bit"
+		(exclude_from_sim no)
+		(at 27.94 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "146e412b-1430-476a-b221-d0323be06b88")
+	)
+	(text "todo: solder bridge & through hole connector"
+		(exclude_from_sim no)
+		(at 305.308 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2aede929-2404-4071-8e84-59d3941ee013")
+	)
+	(text "NH-B1212RGBA-HF\n\n(presumed)\nR 10mA @ 2.0V   => 130Ω\nG 1.4mA @ 2.8V  => 360Ω\nB 6.6mA @ 2.8V  => 82Ω"
+		(exclude_from_sim no)
+		(at 302.768 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88eb4115-0a8a-4362-831d-254d2f4cd2c6")
+	)
+	(text "todo"
+		(exclude_from_sim no)
+		(at 132.842 229.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef960683-e07f-424c-acfc-04bae1a7e0bd")
+	)
+	(junction
+		(at 377.19 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0553bb45-62d3-43f5-98c9-50a21337b8b9")
+	)
+	(junction
+		(at 96.52 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0887fc4d-098d-4685-ada7-2010e70406bb")
+	)
+	(junction
+		(at 374.65 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c8c527-5a24-471a-98ab-e3996a91eca8")
+	)
+	(junction
+		(at 99.06 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37eba562-06e0-4fbd-a202-ff0f27fb4078")
+	)
+	(junction
+		(at 354.33 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42aa45d3-3cf6-4adb-8f72-0f2d90e2aa1c")
+	)
+	(junction
+		(at 187.96 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50290fdf-a305-4e4a-8339-3b6829a74808")
+	)
+	(junction
+		(at 104.14 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59ffd728-6687-41ad-927a-a4afc85f6060")
+	)
+	(junction
+		(at 107.95 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64ff7d20-eca1-49c7-a07a-992e1a69cc35")
+	)
+	(junction
+		(at 96.52 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "654209fc-a243-4435-9e5c-b141f9e2f713")
+	)
+	(junction
+		(at 118.11 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72a45842-3ca3-4ff5-babd-c5930e9ccdcf")
+	)
+	(junction
+		(at 99.06 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75d5d916-e7fa-4250-8825-5846c486d2e5")
+	)
+	(junction
+		(at 93.98 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e9a8f3d-a559-44b4-ad57-d12099a273a7")
+	)
+	(junction
+		(at 107.95 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86639a6a-724c-4a1b-a797-67e850bd1257")
+	)
+	(junction
+		(at 106.68 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8803a9d8-74a2-43fb-8a92-327f17ff9086")
+	)
+	(junction
+		(at 355.6 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d581895-f524-4557-87d8-6c35816a9d02")
+	)
+	(junction
+		(at 99.06 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9473ffda-e42a-490c-b62c-ddd0f9243ac5")
+	)
+	(junction
+		(at 201.93 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac050b35-7a48-4d3b-bca9-d4bf613557d0")
+	)
+	(junction
+		(at 93.98 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb6c25c7-8bb0-4aa7-a1d1-e10c30ac5180")
+	)
+	(junction
+		(at 372.11 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd7983e-f49d-4ccf-b4ff-2c9802b4f46e")
+	)
+	(junction
+		(at 93.98 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8bfc980-5049-478a-ab55-2831bd7f9bf5")
+	)
+	(junction
+		(at 377.19 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca7717db-51ab-4e74-9748-48fc845aac20")
+	)
+	(junction
+		(at 372.11 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb38e4c0-9fc6-4382-8d60-ca2f1d174f1d")
+	)
+	(junction
+		(at 215.9 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de1d2758-8740-4fce-976e-719b9e7afc91")
+	)
+	(junction
+		(at 104.14 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4774923-591c-4291-b0a4-feff251603e2")
+	)
+	(junction
+		(at 355.6 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9cd49bb-cfc6-4038-aee9-b0e38c4144da")
+	)
+	(junction
+		(at 374.65 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc668615-4a1a-432b-870d-4fe982cab9d7")
+	)
+	(junction
+		(at 96.52 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd8a5499-a417-4c6e-81ae-1052ba97dbd2")
+	)
+	(no_connect
+		(at 332.74 38.1)
+		(uuid "0c458c2d-9da2-414b-9af9-3a066918fca2")
+	)
+	(no_connect
+		(at 332.74 100.33)
+		(uuid "150883b6-cd62-4be3-98d8-ad0d0cceb68b")
+	)
+	(no_connect
+		(at 353.06 166.37)
+		(uuid "1c0a46f8-0a34-443b-80e2-f884bad5220f")
+	)
+	(no_connect
+		(at 332.74 33.02)
+		(uuid "21af7a79-cda6-4736-bc3d-611eea96ba27")
+	)
+	(no_connect
+		(at 332.74 35.56)
+		(uuid "24f17b73-170a-4a62-b5be-a61300163a29")
+	)
+	(no_connect
+		(at 128.27 161.29)
+		(uuid "2657fdc0-2d84-4e0b-b2fc-a4e39684b144")
+	)
+	(no_connect
+		(at 321.31 210.82)
+		(uuid "315a1b8f-3874-45e6-9361-80dc1fa55fe8")
+	)
+	(no_connect
+		(at 64.77 173.99)
+		(uuid "3e4b36d7-5885-40f7-bee6-334710c2db4d")
+	)
+	(no_connect
+		(at 128.27 158.75)
+		(uuid "466d22ae-e816-41a7-89c3-6c70f2a6f0a6")
+	)
+	(no_connect
+		(at 64.77 181.61)
+		(uuid "4b3ec5d1-b3ee-40cc-8d4c-1a7f61e822f0")
+	)
+	(no_connect
+		(at 64.77 176.53)
+		(uuid "4f821bfc-1dfd-4246-b770-968764f6a811")
+	)
+	(no_connect
+		(at 332.74 163.83)
+		(uuid "66533e0a-acfc-4a15-83a9-c6c3fb3cc5bb")
+	)
+	(no_connect
+		(at 128.27 163.83)
+		(uuid "69899c9c-863e-4fc7-928d-bfa3b9c15e6c")
+	)
+	(no_connect
+		(at 321.31 236.22)
+		(uuid "6d73dd54-02f5-4955-a7bd-840b8d9fe8fd")
+	)
+	(no_connect
+		(at 332.74 97.79)
+		(uuid "7d190cae-03ca-4dfd-aa43-ab76d716bec4")
+	)
+	(no_connect
+		(at 321.31 208.28)
+		(uuid "7fe74afa-ed3b-41d6-afb4-f56383701717")
+	)
+	(no_connect
+		(at 332.74 95.25)
+		(uuid "85229b8f-1765-44ea-9c85-5217dfba8b71")
+	)
+	(no_connect
+		(at 321.31 238.76)
+		(uuid "8d535b9d-b292-4c09-81e7-8545d7538476")
+	)
+	(no_connect
+		(at 321.31 213.36)
+		(uuid "b7ac9a4e-7ef3-4a24-b07c-9fa4e19bf05b")
+	)
+	(no_connect
+		(at 332.74 156.21)
+		(uuid "c0114209-84b1-4533-87c3-00b6930893cc")
+	)
+	(no_connect
+		(at 64.77 179.07)
+		(uuid "cdef6801-7b82-4a60-bfdf-3da8b137b74c")
+	)
+	(no_connect
+		(at 321.31 220.98)
+		(uuid "cfa29ef6-5691-497f-b5ca-9c9aa18c1fc4")
+	)
+	(no_connect
+		(at 332.74 102.87)
+		(uuid "d62a3e76-d230-457c-8b91-0cab11a2da72")
+	)
+	(no_connect
+		(at 321.31 223.52)
+		(uuid "d80d94fd-4b28-466b-9739-beafa8a6eeb1")
+	)
+	(no_connect
+		(at 353.06 43.18)
+		(uuid "dd3b0d61-7703-4824-8889-95e16d031804")
+	)
+	(no_connect
+		(at 332.74 158.75)
+		(uuid "ebcb354a-b9f0-4477-9fe1-3a7b61afff40")
+	)
+	(no_connect
+		(at 332.74 161.29)
+		(uuid "ed0087c3-5c8b-48d0-a72e-5d27af98638c")
+	)
+	(no_connect
+		(at 332.74 40.64)
+		(uuid "ed110341-c53b-4cbe-9ad1-29cf278f2b24")
+	)
+	(no_connect
+		(at 353.06 105.41)
+		(uuid "f0cb4ba1-14af-4dae-b4a5-1c8d25fc5cf6")
+	)
+	(no_connect
+		(at 128.27 156.21)
+		(uuid "f6690526-04ed-4af7-bab6-ccdab306112f")
+	)
+	(no_connect
+		(at 321.31 233.68)
+		(uuid "fc663c79-a03a-402d-bd5b-5795124bae60")
+	)
+	(no_connect
+		(at 321.31 226.06)
+		(uuid "ffefa2b7-da1e-4c48-b26f-a6e6429bf51b")
+	)
+	(wire
+		(pts
+			(xy 118.11 180.34) (xy 118.11 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002bea7a-ef9b-426e-9ecf-be7641750ff1")
+	)
+	(wire
+		(pts
+			(xy 233.68 81.28) (xy 264.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009c654b-25b7-4107-9630-a11a4ad1a231")
+	)
+	(wire
+		(pts
+			(xy 353.06 38.1) (xy 372.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0165decf-e749-4ca5-a4f5-8ef1b76c6790")
+	)
+	(wire
+		(pts
+			(xy 107.95 227.33) (xy 93.98 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ed66d7-efc4-4766-93dc-4738891ebee8")
+	)
+	(wire
+		(pts
+			(xy 96.52 148.59) (xy 96.52 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bbc0fb-e0b0-4430-8d67-3a446b624d20")
+	)
+	(wire
+		(pts
+			(xy 322.58 250.19) (xy 377.19 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0697a48f-f881-4996-b761-2b82116a5cda")
+	)
+	(wire
+		(pts
+			(xy 29.21 151.13) (xy 99.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084b1e07-0d3b-4be2-8a9a-4505c740888d")
+	)
+	(wire
+		(pts
+			(xy 107.95 261.62) (xy 96.52 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086172b3-65da-4a7a-a0b2-ed6e23375b9c")
+	)
+	(wire
+		(pts
+			(xy 332.74 90.17) (xy 311.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a3669c-a1f1-491f-9e4c-9b55a080b89b")
+	)
+	(wire
+		(pts
+			(xy 303.53 87.63) (xy 332.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0976ad98-9584-4c9a-bbb9-a30ae8cfbf8b")
+	)
+	(wire
+		(pts
+			(xy 34.29 153.67) (xy 34.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099fbf4a-a66a-4be5-a9e7-79c841d6f622")
+	)
+	(wire
+		(pts
+			(xy 354.33 25.4) (xy 353.06 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da00232-ba3a-48da-ab37-eb3faa72292f")
+	)
+	(wire
+		(pts
+			(xy 326.39 166.37) (xy 332.74 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102f84ab-a11f-44d0-b859-77bb2fdebff0")
+	)
+	(wire
+		(pts
+			(xy 245.11 153.67) (xy 307.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f68bd6-3aab-4a12-869f-f3adf0dc0318")
+	)
+	(wire
+		(pts
+			(xy 353.06 95.25) (xy 377.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a32bf00-40c4-49b4-afc4-a42d2776eec7")
+	)
+	(wire
+		(pts
+			(xy 157.48 144.78) (xy 162.56 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adb55f1-62bd-422f-8399-b3345221b479")
+	)
+	(wire
+		(pts
+			(xy 80.01 171.45) (xy 80.01 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c05a139-8513-42ac-ac43-3c47130cccdf")
+	)
+	(wire
+		(pts
+			(xy 138.43 138.43) (xy 153.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c76d8ff-1b9c-4799-9ef5-a8df0b4d6fcd")
+	)
+	(wire
+		(pts
+			(xy 372.11 100.33) (xy 372.11 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e14541b-0ca8-4d37-9941-01507b15b95d")
+	)
+	(wire
+		(pts
+			(xy 154.94 157.48) (xy 175.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b5cc86-4814-4db0-8c3b-14ccff065b6a")
+	)
+	(wire
+		(pts
+			(xy 326.39 105.41) (xy 332.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f8dacc-2968-4b7b-8dbf-34237fdb6653")
+	)
+	(wire
+		(pts
+			(xy 266.7 90.17) (xy 303.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223f575c-f9d8-4c7a-aa54-28af97453586")
+	)
+	(wire
+		(pts
+			(xy 107.95 199.39) (xy 86.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226a2ff1-a8b5-4627-97da-47bc5d6091a1")
+	)
+	(wire
+		(pts
+			(xy 323.85 80.01) (xy 323.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22953d69-2fdd-4529-930a-7c36d24b6328")
+	)
+	(wire
+		(pts
+			(xy 64.77 163.83) (xy 102.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f17b5a-c842-4239-bf69-52d388a8aae4")
+	)
+	(wire
+		(pts
+			(xy 64.77 168.91) (xy 83.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230205e6-43bc-40fb-9f2b-c6ef3dce8d7a")
+	)
+	(wire
+		(pts
+			(xy 229.87 162.56) (xy 229.87 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23026530-bcf2-4c62-88b3-4a0b8aabdbc3")
+	)
+	(wire
+		(pts
+			(xy 93.98 186.69) (xy 93.98 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23255f13-67d1-4369-80f0-d8ca8558342f")
+	)
+	(wire
+		(pts
+			(xy 107.95 209.55) (xy 107.95 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242446e7-929b-4b3f-b27e-5f5f1ca52bbf")
+	)
+	(wire
+		(pts
+			(xy 273.05 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244ac39d-4b29-4d16-916e-96697b5bc7f0")
+	)
+	(wire
+		(pts
+			(xy 355.6 102.87) (xy 355.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253fbd5a-653c-42f8-8dcf-79b8c46dae86")
+	)
+	(wire
+		(pts
+			(xy 377.19 156.21) (xy 377.19 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258206d2-cb1a-4c99-9431-3643fdb0682e")
+	)
+	(wire
+		(pts
+			(xy 215.9 113.03) (xy 215.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279c7590-f50a-4e82-bada-7ea005621208")
+	)
+	(wire
+		(pts
+			(xy 248.92 148.59) (xy 293.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a15131-d907-4ec9-9ada-efdf538bb06d")
+	)
+	(wire
+		(pts
+			(xy 300.99 148.59) (xy 332.74 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298f6af5-a00e-4c60-9e25-8bab4121ea86")
+	)
+	(wire
+		(pts
+			(xy 353.06 156.21) (xy 377.19 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8ce4f3-4e48-4b51-8f6d-a90b64650169")
+	)
+	(wire
+		(pts
+			(xy 273.05 25.4) (xy 281.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5f6d56-6b9f-4ca3-a964-bc90821745e4")
+	)
+	(wire
+		(pts
+			(xy 358.14 90.17) (xy 358.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3062043f-b46e-475b-a011-6f9b527e5b22")
+	)
+	(wire
+		(pts
+			(xy 248.92 97.79) (xy 248.92 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359d97bf-6e70-4707-bbc0-1b2ea352aa3b")
+	)
+	(wire
+		(pts
+			(xy 269.24 87.63) (xy 295.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36be2e53-399c-4915-8088-2a72f89f4746")
+	)
+	(wire
+		(pts
+			(xy 99.06 191.77) (xy 107.95 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cbbc03-c3cb-46e3-af68-0e6ce6c5a1f3")
+	)
+	(wire
+		(pts
+			(xy 233.68 77.47) (xy 266.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ea4eab-bfad-4ec0-a35f-355cbee89ced")
+	)
+	(wire
+		(pts
+			(xy 104.14 135.89) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394e1d63-d244-4d4e-8671-6b0497bcde10")
+	)
+	(wire
+		(pts
+			(xy 118.11 210.82) (xy 118.11 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d1476f-38ac-453e-af64-e581c1d473e8")
+	)
+	(wire
+		(pts
+			(xy 355.6 87.63) (xy 353.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d5b61a-2172-4c26-ab3c-1f90ddd56dd8")
+	)
+	(wire
+		(pts
+			(xy 201.93 149.86) (xy 201.93 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afaf75c-a121-4dca-99d9-cafacc28fdc1")
+	)
+	(wire
+		(pts
+			(xy 308.61 151.13) (xy 332.74 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3ff072-379a-4d5a-9369-e754b8cae4c2")
+	)
+	(wire
+		(pts
+			(xy 353.06 161.29) (xy 372.11 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40475aba-8f26-4ea5-8d1e-715d9b945ff7")
+	)
+	(wire
+		(pts
+			(xy 328.93 15.24) (xy 356.87 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413af173-bc30-40e9-8d8b-823ace7c8b86")
+	)
+	(wire
+		(pts
+			(xy 102.87 158.75) (xy 104.14 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ac8342-92ed-4c00-9dfe-ddf6239f3acb")
+	)
+	(wire
+		(pts
+			(xy 264.16 92.71) (xy 309.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bc6b29-beb2-4e21-99f8-3a627e44c576")
+	)
+	(wire
+		(pts
+			(xy 107.95 158.75) (xy 107.95 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4367b6e1-f10c-4594-92dc-c550c810fffd")
+	)
+	(wire
+		(pts
+			(xy 107.95 151.13) (xy 99.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440b54e6-236a-4e6a-84fb-9cb9676b94c6")
+	)
+	(wire
+		(pts
+			(xy 182.88 168.91) (xy 182.88 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ca57d7-0c6f-4a9f-a030-f023ffa5e528")
+	)
+	(wire
+		(pts
+			(xy 107.95 264.16) (xy 99.06 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e876eb-e6ff-4532-88b9-0330a0a3fab9")
+	)
+	(wire
+		(pts
+			(xy 80.01 271.78) (xy 107.95 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4768ac29-e3ee-439e-ba76-05118a842a8e")
+	)
+	(wire
+		(pts
+			(xy 175.26 151.13) (xy 208.28 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acc9f01-43ba-4c3d-ba27-186ceac2a1c9")
+	)
+	(wire
+		(pts
+			(xy 34.29 163.83) (xy 44.45 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbb5e19-0ee5-4db1-84e5-472e00c69b4a")
+	)
+	(wire
+		(pts
+			(xy 273.05 25.4) (xy 273.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebac341-31d6-4dff-80d9-8a058395dc71")
+	)
+	(wire
+		(pts
+			(xy 233.68 73.66) (xy 269.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb6dc53-6ca1-49e2-bb5c-decc8fe4bff4")
+	)
+	(wire
+		(pts
+			(xy 104.14 135.89) (xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51029b4c-8133-411d-b6a1-6f5c2aa559d6")
+	)
+	(wire
+		(pts
+			(xy 187.96 143.51) (xy 187.96 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512913de-9a61-48ad-b71d-49c3adec331e")
+	)
+	(wire
+		(pts
+			(xy 107.95 186.69) (xy 93.98 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544b1f52-37b1-4f3b-8a82-dfaa130c9219")
+	)
+	(wire
+		(pts
+			(xy 303.53 30.48) (xy 332.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566d7bdb-1a70-42cf-bdd4-4f5c752104b7")
+	)
+	(wire
+		(pts
+			(xy 266.7 77.47) (xy 266.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57956280-a820-4693-a264-fa2dd95638a3")
+	)
+	(wire
+		(pts
+			(xy 99.06 191.77) (xy 99.06 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ed7f4f-af8a-4e22-a109-d36719d6afcb")
+	)
+	(wire
+		(pts
+			(xy 372.11 38.1) (xy 372.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e8dc33-ef2a-4e6b-8832-c62aa88f6494")
+	)
+	(wire
+		(pts
+			(xy 107.95 146.05) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afa3599-5de9-4dc4-bfd3-874d6d2a30d2")
+	)
+	(wire
+		(pts
+			(xy 247.65 151.13) (xy 247.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba62766-badf-42b0-abfb-1856ce07e3d1")
+	)
+	(wire
+		(pts
+			(xy 107.95 232.41) (xy 99.06 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc11cc3-f9c7-436a-adfc-d4d0e7eca82e")
+	)
+	(wire
+		(pts
+			(xy 360.68 30.48) (xy 360.68 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2286cc-800c-4747-8f89-9a0a9a1b8fa0")
+	)
+	(wire
+		(pts
+			(xy 118.11 168.91) (xy 106.68 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f739cc2-d683-498b-88c8-ec5a0c06bf22")
+	)
+	(wire
+		(pts
+			(xy 106.68 170.18) (xy 106.68 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ed8755-3ec8-4660-9a43-41fe9c0c5ac8")
+	)
+	(wire
+		(pts
+			(xy 31.75 168.91) (xy 44.45 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653de922-4cde-4a09-9602-480a5f981f11")
+	)
+	(wire
+		(pts
+			(xy 264.16 81.28) (xy 264.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6665ac3f-3733-47db-b249-37fcfa1d35bd")
+	)
+	(wire
+		(pts
+			(xy 354.33 22.86) (xy 354.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b3c65d-47c3-4c75-8b50-717ff3f3c266")
+	)
+	(wire
+		(pts
+			(xy 118.11 135.89) (xy 118.11 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e15b6fe-8c97-474b-bb4f-9f2d9740cb89")
+	)
+	(wire
+		(pts
+			(xy 328.93 22.86) (xy 328.93 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa3a730-1c97-4732-9dc0-ecf4f456681c")
+	)
+	(wire
+		(pts
+			(xy 229.87 113.03) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711616cc-926d-4d77-b8a1-856b1a2357ac")
+	)
+	(wire
+		(pts
+			(xy 99.06 151.13) (xy 99.06 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71965ed3-4714-485b-b0ca-427d23acb5da")
+	)
+	(wire
+		(pts
+			(xy 29.21 158.75) (xy 31.75 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719ec70b-5c1d-453b-b16f-f7948fcd9f68")
+	)
+	(wire
+		(pts
+			(xy 107.95 240.03) (xy 83.82 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e1da6d-a096-4423-9c59-3c4a0674deb3")
+	)
+	(wire
+		(pts
+			(xy 353.06 33.02) (xy 377.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c9aa5b-e020-453b-8203-ae38bc760203")
+	)
+	(wire
+		(pts
+			(xy 29.21 153.67) (xy 34.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7484729e-21d5-444f-bd46-e25cbc388913")
+	)
+	(wire
+		(pts
+			(xy 353.06 90.17) (xy 358.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bc4d2d-ce6f-4cac-94f9-d60a334a975f")
+	)
+	(wire
+		(pts
+			(xy 247.65 151.13) (xy 300.99 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ca1307-de3c-46de-9724-d989df106796")
+	)
+	(wire
+		(pts
+			(xy 323.85 146.05) (xy 294.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774c929b-b3d5-47cb-951b-26b54f884328")
+	)
+	(wire
+		(pts
+			(xy 233.68 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781697e2-e300-4239-8226-e73ee821e7f2")
+	)
+	(wire
+		(pts
+			(xy 358.14 80.01) (xy 323.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afeb25a-020d-466a-8fb2-4eb7eb7a3544")
+	)
+	(wire
+		(pts
+			(xy 356.87 15.24) (xy 356.87 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4c6020-59b7-47fb-ac07-0198ce197c3a")
+	)
+	(wire
+		(pts
+			(xy 93.98 146.05) (xy 93.98 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf4544a-f8a2-45b6-a5a4-595f013cea11")
+	)
+	(wire
+		(pts
+			(xy 104.14 144.78) (xy 104.14 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6f02c5-6b8b-4ff5-a11f-381b00c3c2cc")
+	)
+	(wire
+		(pts
+			(xy 106.68 168.91) (xy 106.68 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5a0505-bd62-4719-8bb3-fc4003da56c3")
+	)
+	(wire
+		(pts
+			(xy 107.95 199.39) (xy 107.95 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff20dab-5b37-4b5e-b5ad-2f65d79f7e55")
+	)
+	(wire
+		(pts
+			(xy 128.27 151.13) (xy 167.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b647b4-0160-4061-af38-12ff0179354c")
+	)
+	(wire
+		(pts
+			(xy 29.21 156.21) (xy 33.02 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8149d656-53ac-4c9a-be31-3b6a8531173e")
+	)
+	(wire
+		(pts
+			(xy 233.68 69.85) (xy 271.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82815baf-4719-4572-a59e-d5072c9c5ba6")
+	)
+	(wire
+		(pts
+			(xy 355.6 148.59) (xy 353.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fb58a6-5ab1-4ac2-8a45-017399086f0d")
+	)
+	(wire
+		(pts
+			(xy 270.51 41.91) (xy 270.51 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854bcdd4-aeb6-47a7-8abc-84141bb7f104")
+	)
+	(wire
+		(pts
+			(xy 107.95 148.59) (xy 96.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d237f5-6e9c-4f1d-9770-17be0fcc7da6")
+	)
+	(wire
+		(pts
+			(xy 29.21 146.05) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89daebd6-4e77-444f-8c02-92163e2bd9cc")
+	)
+	(wire
+		(pts
+			(xy 276.86 27.94) (xy 288.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afb3c46-40e5-491f-a85a-b2b408f0b979")
+	)
+	(wire
+		(pts
+			(xy 354.33 40.64) (xy 354.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b587a43-d672-4df0-bb80-dda181690749")
+	)
+	(wire
+		(pts
+			(xy 33.02 156.21) (xy 33.02 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c654e48-139a-4429-9ffd-c965d8fc6f2e")
+	)
+	(wire
+		(pts
+			(xy 353.06 151.13) (xy 358.14 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d623f86-8425-41de-afd7-9691e14ed75e")
+	)
+	(wire
+		(pts
+			(xy 118.11 209.55) (xy 107.95 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e197ff5-0917-44e4-a45c-56ca65c331b7")
+	)
+	(wire
+		(pts
+			(xy 355.6 146.05) (xy 355.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91aa5980-5764-4da9-9f5d-27a3b2d25e37")
+	)
+	(wire
+		(pts
+			(xy 157.48 148.59) (xy 157.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9596dd4d-f516-4f1f-83fd-8178d0d8fc42")
+	)
+	(wire
+		(pts
+			(xy 154.94 157.48) (xy 154.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c7bdf4-0da8-4ed3-9cc8-3bb4a39726be")
+	)
+	(wire
+		(pts
+			(xy 322.58 245.11) (xy 372.11 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96dc1c59-b16c-42be-9605-0db344a4eeb4")
+	)
+	(wire
+		(pts
+			(xy 247.65 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f3d487-a3af-4ed9-b164-dfb86323ede0")
+	)
+	(wire
+		(pts
+			(xy 187.96 113.03) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f7efe5-3656-4733-a557-0fbb0695b59d")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 251.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f9f767-a48d-45b7-bb6d-aac22ba41cd6")
+	)
+	(wire
+		(pts
+			(xy 295.91 27.94) (xy 332.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cfcdd1-ef31-48d0-84c4-a4978f2e919a")
+	)
+	(wire
+		(pts
+			(xy 280.67 30.48) (xy 295.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9add7cc2-89ab-4da2-915a-90e816fbb4aa")
+	)
+	(wire
+		(pts
+			(xy 271.78 69.85) (xy 271.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb4b04b-888d-48a1-9d27-6e6abc1737ee")
+	)
+	(wire
+		(pts
+			(xy 187.96 168.91) (xy 201.93 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cce0aef-a100-45cf-9d8d-f51ad9442cda")
+	)
+	(wire
+		(pts
+			(xy 96.52 229.87) (xy 96.52 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db64207-94e8-450d-a591-a57ce59a9830")
+	)
+	(wire
+		(pts
+			(xy 29.21 148.59) (xy 96.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24d1c64-754a-4c82-8b7b-80f5d7e0886a")
+	)
+	(wire
+		(pts
+			(xy 289.56 25.4) (xy 332.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3536aed-5acc-40a2-87ca-e6d0d6443d60")
+	)
+	(wire
+		(pts
+			(xy 83.82 168.91) (xy 83.82 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a356add3-459f-40b8-a16c-c8debde3531f")
+	)
+	(wire
+		(pts
+			(xy 332.74 92.71) (xy 317.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36c5581-8069-4ef5-a6ba-c874e90b3de0")
+	)
+	(wire
+		(pts
+			(xy 99.06 232.41) (xy 99.06 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d713cf-f5ff-4087-9ec8-df950b4bf998")
+	)
+	(wire
+		(pts
+			(xy 353.06 102.87) (xy 355.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a683b8-10db-4d0d-9d1a-e251c5e132cf")
+	)
+	(wire
+		(pts
+			(xy 353.06 27.94) (xy 356.87 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61d222d-b80b-4480-bad1-431942535916")
+	)
+	(wire
+		(pts
+			(xy 102.87 163.83) (xy 102.87 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61e97e1-e190-45b8-9742-e2b8907a8760")
+	)
+	(wire
+		(pts
+			(xy 104.14 134.62) (xy 104.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78bc2c3-b261-4096-9919-2ef045b484fe")
+	)
+	(wire
+		(pts
+			(xy 374.65 158.75) (xy 374.65 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81e11e6-a336-405d-b01c-f4243366079f")
+	)
+	(wire
+		(pts
+			(xy 377.19 33.02) (xy 377.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85f8bc2-1537-4472-a8d1-665a093e3b72")
+	)
+	(wire
+		(pts
+			(xy 245.11 105.41) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf06f19-31e1-475a-ac60-1c36249ad2aa")
+	)
+	(wire
+		(pts
+			(xy 233.68 49.53) (xy 276.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac288071-2f66-4a2c-9957-3e91e15925d4")
+	)
+	(wire
+		(pts
+			(xy 96.52 189.23) (xy 96.52 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7f30d1-0711-467b-87b4-88b168eb1134")
+	)
+	(wire
+		(pts
+			(xy 369.57 153.67) (xy 369.57 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdecbe9-4644-40b4-9a83-e6420defc7f7")
+	)
+	(wire
+		(pts
+			(xy 138.43 146.05) (xy 138.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adeb8c91-9835-4c60-97ca-e093d6830c4f")
+	)
+	(wire
+		(pts
+			(xy 128.27 146.05) (xy 138.43 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9b645a-1cde-4a55-9ee0-17c674b19520")
+	)
+	(wire
+		(pts
+			(xy 374.65 97.79) (xy 353.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed07fa1-17b1-4d3d-ac71-dc00fbff09ed")
+	)
+	(wire
+		(pts
+			(xy 355.6 163.83) (xy 355.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d25622-1e50-474e-8dad-39d3af47e683")
+	)
+	(wire
+		(pts
+			(xy 64.77 171.45) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b344bb88-b619-43f3-820d-a515c5e69729")
+	)
+	(wire
+		(pts
+			(xy 377.19 95.25) (xy 377.19 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b476c9a7-2bfc-4653-bda2-d05cf4a070af")
+	)
+	(wire
+		(pts
+			(xy 323.85 142.24) (xy 323.85 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cc2a64-bd6f-4b52-954a-55e1d72920c4")
+	)
+	(wire
+		(pts
+			(xy 358.14 142.24) (xy 323.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66ddd15-d79c-438d-970f-64be34d0284b")
+	)
+	(wire
+		(pts
+			(xy 365.76 92.71) (xy 365.76 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9998e37-c7cd-4717-9f80-661adf57e059")
+	)
+	(wire
+		(pts
+			(xy 215.9 156.21) (xy 215.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7b7b2b-c029-49fe-8ec2-0cbf1b816ebb")
+	)
+	(wire
+		(pts
+			(xy 314.96 153.67) (xy 332.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab023a4-6691-4151-9bff-90199ef49457")
+	)
+	(wire
+		(pts
+			(xy 353.06 92.71) (xy 365.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0c3c89-4ec5-473b-9a36-65970cfc711a")
+	)
+	(wire
+		(pts
+			(xy 201.93 168.91) (xy 215.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea4cae5-512a-4ea6-88f5-223afc68cfed")
+	)
+	(wire
+		(pts
+			(xy 170.18 144.78) (xy 194.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1120e1a-d531-4216-bc41-51867cb0d614")
+	)
+	(wire
+		(pts
+			(xy 269.24 73.66) (xy 269.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b7cc38-cd04-4dd3-ba86-bd3a67605eaa")
+	)
+	(wire
+		(pts
+			(xy 271.78 85.09) (xy 289.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cd72ce-f48d-4c0f-b088-06108b87ca02")
+	)
+	(wire
+		(pts
+			(xy 353.06 163.83) (xy 355.6 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c642858c-c9e4-4ef6-a756-054530068f99")
+	)
+	(wire
+		(pts
+			(xy 270.51 22.86) (xy 275.59 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e04673-4a25-4257-a22f-58191148bf58")
+	)
+	(wire
+		(pts
+			(xy 353.06 40.64) (xy 354.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9eef9c3-65b5-4acc-b738-c5ecd8893dd1")
+	)
+	(wire
+		(pts
+			(xy 182.88 157.48) (xy 222.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac788ac-92eb-4348-8b25-b00e45a36cfc")
+	)
+	(wire
+		(pts
+			(xy 321.31 205.74) (xy 360.68 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf0f11a-86d0-4cc9-aca5-ec402e1c64df")
+	)
+	(wire
+		(pts
+			(xy 353.06 153.67) (xy 369.57 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd34398b-8346-4a9a-910b-cadb4ada7b1d")
+	)
+	(wire
+		(pts
+			(xy 374.65 35.56) (xy 374.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce413722-8d50-4e4d-a188-cc08b3c1c95e")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 107.95 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb7cfd4-4425-487c-9d37-4a0fd14a6f60")
+	)
+	(wire
+		(pts
+			(xy 128.27 153.67) (xy 154.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf080dff-52d6-4075-b273-42796167e7c1")
+	)
+	(wire
+		(pts
+			(xy 64.77 166.37) (xy 86.36 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ad89b3-b743-4436-8ab3-09401408fda3")
+	)
+	(wire
+		(pts
+			(xy 201.93 113.03) (xy 201.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d96843-825f-4811-8696-5db9508d613f")
+	)
+	(wire
+		(pts
+			(xy 374.65 97.79) (xy 374.65 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f22bbe-4cca-4c73-88ab-ef00238234aa")
+	)
+	(wire
+		(pts
+			(xy 161.29 138.43) (xy 180.34 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53f44e6-0641-4c68-83eb-db0a22591e12")
+	)
+	(wire
+		(pts
+			(xy 33.02 166.37) (xy 44.45 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e69f1e-8d48-4942-bff1-cd8c2fa46beb")
+	)
+	(wire
+		(pts
+			(xy 353.06 35.56) (xy 374.65 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67078bb-8d04-4cf8-b158-ce48ab9ca68e")
+	)
+	(wire
+		(pts
+			(xy 93.98 227.33) (xy 93.98 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70094b6-2f1c-4aa7-9237-9ee0c9a3d5a2")
+	)
+	(wire
+		(pts
+			(xy 328.93 22.86) (xy 283.21 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d796da10-8084-4549-a8d1-140f78d4e344")
+	)
+	(wire
+		(pts
+			(xy 353.06 30.48) (xy 360.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcac4464-c38e-4f95-9e59-7161eff19e1f")
+	)
+	(wire
+		(pts
+			(xy 233.68 41.91) (xy 270.51 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbecb4f-3b9a-40ed-9a16-cbad5bf39402")
+	)
+	(wire
+		(pts
+			(xy 107.95 229.87) (xy 96.52 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1d0bb3-a263-4a32-98cb-4370257a4faa")
+	)
+	(wire
+		(pts
+			(xy 326.39 43.18) (xy 332.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf6c7b0-a8be-4632-9487-782e6f4cab55")
+	)
+	(wire
+		(pts
+			(xy 323.85 85.09) (xy 297.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06073fb-ace9-4d55-8b94-094aa8a91956")
+	)
+	(wire
+		(pts
+			(xy 353.06 100.33) (xy 372.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0848aca-7fef-47e2-b616-5112f2b1f660")
+	)
+	(wire
+		(pts
+			(xy 215.9 168.91) (xy 229.87 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e284d080-bb50-40d7-9b17-30bc46f96b3a")
+	)
+	(wire
+		(pts
+			(xy 31.75 158.75) (xy 31.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36e3921-980f-4887-b81d-4c15be96aae8")
+	)
+	(wire
+		(pts
+			(xy 280.67 53.34) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cae280-f816-489d-b831-73a5836d728a")
+	)
+	(wire
+		(pts
+			(xy 233.68 97.79) (xy 248.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cb2fc0-bfb4-47c7-92b1-c5bcb0f78a91")
+	)
+	(wire
+		(pts
+			(xy 358.14 151.13) (xy 358.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5b0213-7bdf-47d1-8496-54a6fa06533c")
+	)
+	(wire
+		(pts
+			(xy 322.58 247.65) (xy 374.65 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01029e7-a826-4825-b3a7-f3b8ad219bbd")
+	)
+	(wire
+		(pts
+			(xy 182.88 168.91) (xy 187.96 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2420151-3371-4923-8d3d-255aa0a93ea7")
+	)
+	(wire
+		(pts
+			(xy 107.95 189.23) (xy 96.52 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d1048e-6acd-4c43-a7c2-56581f964221")
+	)
+	(wire
+		(pts
+			(xy 321.31 231.14) (xy 369.57 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f370dc73-60d1-4c2c-a037-1ae3d5a221bf")
+	)
+	(wire
+		(pts
+			(xy 321.31 218.44) (xy 365.76 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4597965-6460-4971-b320-4cff4aced782")
+	)
+	(wire
+		(pts
+			(xy 280.67 30.48) (xy 280.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47792a3-c578-4737-9f17-1964de63d32d")
+	)
+	(wire
+		(pts
+			(xy 251.46 146.05) (xy 287.02 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f746f51c-ddb3-4c6d-af9a-2fd2d780e2dd")
+	)
+	(wire
+		(pts
+			(xy 374.65 158.75) (xy 353.06 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80b6bf0-6491-40a3-830d-ff1a8e16e51b")
+	)
+	(wire
+		(pts
+			(xy 276.86 49.53) (xy 276.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8f26ba-7e6d-44c9-bf41-94eb76d542c5")
+	)
+	(wire
+		(pts
+			(xy 372.11 161.29) (xy 372.11 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad3c8c4-bdb5-4be4-8bc2-b6b0cf03cd29")
+	)
+	(wire
+		(pts
+			(xy 104.14 158.75) (xy 107.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9988a7-22c5-4bbc-81cd-664fe4026f79")
+	)
+	(wire
+		(pts
+			(xy 107.95 259.08) (xy 93.98 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd05c1b4-6c5d-46a1-a26e-3bab01ffce10")
+	)
+	(wire
+		(pts
+			(xy 128.27 148.59) (xy 157.48 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd119609-1914-42f0-adde-8c39c11a7ed9")
+	)
+	(wire
+		(pts
+			(xy 355.6 83.82) (xy 355.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9547a3-ccb9-4ec6-b03f-edda26dadace")
+	)
+	(wire
+		(pts
+			(xy 86.36 166.37) (xy 86.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa01945-d649-47b2-bc8f-1e0760c481df")
+	)
+	(wire
+		(pts
+			(xy 245.11 153.67) (xy 245.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc88ff2-bbe2-47e7-a523-85a346eaffa4")
+	)
+	(hierarchical_label "R_S_1_B"
+		(shape input)
+		(at 321.31 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "002718c7-412f-4211-a7e2-501c5feadd53")
+	)
+	(hierarchical_label "R_S_2_R"
+		(shape input)
+		(at 321.31 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05c7afc9-89d0-4664-a54e-bcd5a32e1406")
+	)
+	(hierarchical_label "C_P_6"
+		(shape input)
+		(at 29.21 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e21185f-1536-4613-97d6-33fd03df3c5c")
+	)
+	(hierarchical_label "R_S_3_B"
+		(shape input)
+		(at 321.31 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26fb53d3-de38-45e8-b15f-044efabea648")
+	)
+	(hierarchical_label "R_S_4_G"
+		(shape input)
+		(at 321.31 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "320b149d-1424-47ad-a962-f7de0dbed79d")
+	)
+	(hierarchical_label "~{OE}"
+		(shape input)
+		(at 322.58 250.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4263dcd5-2e60-4f25-9861-c5296215f19a")
+	)
+	(hierarchical_label "R_S_4_R"
+		(shape input)
+		(at 321.31 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48d2eb03-99b1-4676-b5a5-a1dbc58e1f30")
+	)
+	(hierarchical_label "R_S_2_G"
+		(shape input)
+		(at 321.31 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5942dc58-69d0-43ce-af96-b352d10b95e8")
+	)
+	(hierarchical_label "R_S_3_R"
+		(shape input)
+		(at 321.31 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59ef5c26-28c2-4cb0-9100-4d0eeb1b34e8")
+	)
+	(hierarchical_label "STOP"
+		(shape input)
+		(at 322.58 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65749e19-7825-4daf-8a17-755ac6851eda")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 322.58 245.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6694c887-90d1-4ec9-8017-73ec25e13aee")
+	)
+	(hierarchical_label "R_S_4_B"
+		(shape input)
+		(at 321.31 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8abec8a0-d32c-4dc3-a62d-f2bfc5b3737c")
+	)
+	(hierarchical_label "R_S_2_B"
+		(shape input)
+		(at 321.31 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9aaa143b-f58c-4164-b6ef-6793df7182a3")
+	)
+	(hierarchical_label "C_P_5"
+		(shape input)
+		(at 29.21 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c8feaa1-dd08-4684-a02e-cb8749e724ab")
+	)
+	(hierarchical_label "C_P_3"
+		(shape input)
+		(at 29.21 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae952a64-aa47-42ff-b726-59d8f83c958b")
+	)
+	(hierarchical_label "C_P_1"
+		(shape input)
+		(at 29.21 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2bfebe2-d19d-4bc3-808a-c2577e8945f9")
+	)
+	(hierarchical_label "R_S_3_G"
+		(shape input)
+		(at 321.31 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9713d1c-c9da-4791-994a-cb58f80009b1")
+	)
+	(hierarchical_label "C_P_4"
+		(shape input)
+		(at 29.21 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd3c016b-160b-4fde-af50-a846dfaa0639")
+	)
+	(hierarchical_label "R_S_1_G"
+		(shape input)
+		(at 321.31 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8b26f73-6785-4f98-89c1-0f2302911528")
+	)
+	(hierarchical_label "C_P_2"
+		(shape input)
+		(at 29.21 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa69b951-84e7-4e49-aa46-53425ef6627d")
+	)
+	(hierarchical_label "R_S_1_R"
+		(shape input)
+		(at 321.31 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe6412ec-c5ef-4909-a861-60868c98ff3b")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 313.69 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a59632a-92e9-4b0b-8bb4-98cf9a884787")
+		(property "Reference" "R22"
+			(at 313.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 313.69 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 313.69 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 313.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e9cfb49-8179-4037-a277-24bde30871c7")
+		)
+		(pin "2"
+			(uuid "cc8b2495-9bee-41f8-92f1-9c6d67ea1d81")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c4567a6-f781-4a5c-8968-b317a57eb0bd")
+		(property "Reference" "#PWR07"
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f43f249-9c52-406d-b033-a88c8218a23d")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208fd01d-b38b-41af-9ba0-184c74356a64")
+		(property "Reference" "R23"
+			(at 106.68 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 106.68 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 102.362 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7887ad74-fe4c-4892-a63e-7b5e94d60565")
+		)
+		(pin "1"
+			(uuid "7d784215-d7b6-4665-93c8-b421b2b0853e")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 355.6 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bbefd62-4e18-4a32-b20b-f73ea26fb96c")
+		(property "Reference" "#PWR036"
+			(at 355.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 355.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 355.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36ba6789-c65e-4e55-808c-0d647ec791de")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 342.9 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d08ea0a-f5e4-4da3-b482-6ce9fc1caa6d")
+		(property "Reference" "U9"
+			(at 342.9 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 342.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 342.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 340.614 35.433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 342.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "327cb0f2-f4dd-4633-845b-2bf62d14e57c")
+		)
+		(pin "9"
+			(uuid "68373d25-5373-48ae-87ea-1d7a10335b06")
+		)
+		(pin "7"
+			(uuid "462c7d57-5b72-4796-9ade-b2a27e28eec1")
+		)
+		(pin "6"
+			(uuid "238ae835-d814-4eee-add9-017cbc6cd91b")
+		)
+		(pin "14"
+			(uuid "bdbb7e6c-1ab4-4f6a-a932-a6f19b921a65")
+		)
+		(pin "2"
+			(uuid "315e43d5-8d24-452b-bff8-cb7bafa26598")
+		)
+		(pin "4"
+			(uuid "e968ef97-9213-46be-b09b-c27d6b202f33")
+		)
+		(pin "3"
+			(uuid "0b0fc421-c068-4c3c-8751-627134f2e5a6")
+		)
+		(pin "13"
+			(uuid "ac21d482-bf0a-473a-ae1f-622b8f4872d2")
+		)
+		(pin "16"
+			(uuid "bf4ef9f9-9c7e-4a64-baf3-aedec85ecfa1")
+		)
+		(pin "1"
+			(uuid "ae14f052-c96d-4247-90ec-d4486ccb3614")
+		)
+		(pin "15"
+			(uuid "9c74dec0-394f-4fb4-a868-9044e196711e")
+		)
+		(pin "8"
+			(uuid "503436e6-8db9-498d-b419-18a9009439e0")
+		)
+		(pin "12"
+			(uuid "976e696f-35c2-4334-881d-555efb98236d")
+		)
+		(pin "5"
+			(uuid "0061d988-b886-4873-8189-78f4e1b6a6cf")
+		)
+		(pin "10"
+			(uuid "e6d8759a-4881-473e-8583-2ecdd6e7db4f")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 342.9 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2d4d02f7-0e4e-4f30-b249-fbb4fde23c6c")
+		(property "Reference" "U10"
+			(at 342.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 342.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 340.614 65.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 342.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "32d8604d-bd05-4054-9183-412e644fc929")
+		)
+		(pin "9"
+			(uuid "0c3eb562-2b58-4ad7-9446-7a87c1f3bdb4")
+		)
+		(pin "7"
+			(uuid "35ca4003-4149-477a-b36e-057e5a2dfe4c")
+		)
+		(pin "6"
+			(uuid "68c227d7-369f-4535-ac06-438c13985831")
+		)
+		(pin "14"
+			(uuid "4b3f3183-8587-4b80-8b71-bf78543084d6")
+		)
+		(pin "2"
+			(uuid "6e1afe0e-56c7-4641-bc75-093140607611")
+		)
+		(pin "4"
+			(uuid "cdf8d27e-06c0-48ce-ac93-69ad4d2dabac")
+		)
+		(pin "3"
+			(uuid "58848599-bd6b-4cf8-8a54-3c191a75e81c")
+		)
+		(pin "13"
+			(uuid "201a9712-3410-4d1a-a1a5-980676d54361")
+		)
+		(pin "16"
+			(uuid "93df0d91-5dd6-45a8-abac-244c99948789")
+		)
+		(pin "1"
+			(uuid "c44cdc67-863b-46eb-a27f-300500993a09")
+		)
+		(pin "15"
+			(uuid "968c92a6-73b6-4b96-ac57-d967b53c243a")
+		)
+		(pin "8"
+			(uuid "614a08eb-6080-45bd-9bb3-2e76db6e328d")
+		)
+		(pin "12"
+			(uuid "e879e982-d36a-417a-910e-2ee8e6db3317")
+		)
+		(pin "5"
+			(uuid "0fc43846-5e86-40c3-b110-e710e36ccbb6")
+		)
+		(pin "10"
+			(uuid "63f08343-9f40-41bf-99f4-b31350be2100")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 297.18 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3177aec8-89c4-4868-a4f0-c882fa9db708")
+		(property "Reference" "R15"
+			(at 297.18 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 297.18 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 297.18 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cf3e42a-31ce-4a46-ab23-9864d17b8c3b")
+		)
+		(pin "2"
+			(uuid "e7a8f5f9-38ff-4acf-8ed6-ff9d83a383ff")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 342.9 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "33e6b5b2-f598-4d96-ab87-339adfe2fbee")
+		(property "Reference" "U14"
+			(at 342.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 342.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 342.9 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 340.614 189.103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 342.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "a74a2c4b-7eae-443a-85fb-5893ffdb0a66")
+		)
+		(pin "9"
+			(uuid "3ecdf7ee-72a6-4b3b-a313-87e05d6e7bef")
+		)
+		(pin "7"
+			(uuid "e98f0c74-b0a9-4091-8321-9bf4dfbc7dff")
+		)
+		(pin "6"
+			(uuid "82318642-ee7e-4a5f-9f05-e07e5fe8a944")
+		)
+		(pin "14"
+			(uuid "da2ee239-c2d2-46a7-b138-c63b60f18b58")
+		)
+		(pin "2"
+			(uuid "1740ee70-038b-4cc8-a8ae-ad55acd72bd1")
+		)
+		(pin "4"
+			(uuid "4c41bd8d-d4d4-4eb1-b717-b653f66714f9")
+		)
+		(pin "3"
+			(uuid "1ff31757-8748-4d40-ad49-24dac4c56de6")
+		)
+		(pin "13"
+			(uuid "0b4f6dec-686a-418a-901b-6f1f9545c0aa")
+		)
+		(pin "16"
+			(uuid "c85095fb-ef70-4fda-9b1a-00ebe92ee708")
+		)
+		(pin "1"
+			(uuid "6c19436e-d87d-4eb0-8bdd-4904cd92a16d")
+		)
+		(pin "15"
+			(uuid "37a5e34c-c900-4f52-b2d5-e5f8f4f44f0c")
+		)
+		(pin "8"
+			(uuid "39566e8f-0ebd-4bc7-93be-112b8d06328d")
+		)
+		(pin "12"
+			(uuid "e46c9d4d-52a5-468e-bc49-f778feb83f13")
+		)
+		(pin "5"
+			(uuid "f1075bbe-fb4f-4d47-a1cb-854e49590aab")
+		)
+		(pin "10"
+			(uuid "d44ecaaa-f274-4688-adc7-2a22fb253fe4")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 182.88 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34eb6ec2-5cf7-4ee4-b0c9-cd53052ba97c")
+		(property "Reference" "#PWR01"
+			(at 182.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 182.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 182.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bcf63c7-b657-4c40-81b6-f1db427aeb8e")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f1ba9de-6686-44f4-a4f6-2964f376ea19")
+		(property "Reference" "R26"
+			(at 171.45 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 171.45 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 171.45 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f31ae1d-5fb6-4609-8151-cd8b8d2b15d2")
+		)
+		(pin "2"
+			(uuid "5aa4e5b7-2c31-428d-a4a9-4ce7fe9b5a35")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 342.9 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42b7824b-ca47-4b6e-803a-a46bc039e4be")
+		(property "Reference" "U13"
+			(at 342.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 342.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 342.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 340.614 158.623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 342.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "1e685163-43d9-40e8-90e5-a99989c2929b")
+		)
+		(pin "9"
+			(uuid "a9c1dfe8-5bb3-43cb-8004-6f90e6693770")
+		)
+		(pin "7"
+			(uuid "877f53a7-2bce-4daf-9c3b-db15691afc7d")
+		)
+		(pin "6"
+			(uuid "5ff21e93-b811-4cfc-88bd-b86bd67d42fa")
+		)
+		(pin "14"
+			(uuid "2eb3cd1b-a960-474d-bba3-d3f718c1d53f")
+		)
+		(pin "2"
+			(uuid "2b28e92e-0f3b-451e-a061-8e35bb6ff699")
+		)
+		(pin "4"
+			(uuid "6233e588-0f7a-4e9c-9515-c17294e7fb1e")
+		)
+		(pin "3"
+			(uuid "492d6ccf-a951-4d31-964b-f7bb71518f2b")
+		)
+		(pin "13"
+			(uuid "247f0d3a-b07c-47cc-a167-61cda112bba0")
+		)
+		(pin "16"
+			(uuid "86022f69-9ddb-4bbc-a043-bbb4dc212f37")
+		)
+		(pin "1"
+			(uuid "d6967a1d-8312-45c2-8490-277100cef260")
+		)
+		(pin "15"
+			(uuid "91fa2dbf-3e51-4f00-b96e-30420bc8f8d5")
+		)
+		(pin "8"
+			(uuid "859b429e-5f19-4c42-9e6d-2bfecbe0cf8f")
+		)
+		(pin "12"
+			(uuid "ebdc3dcf-122b-46ae-bae1-989652052fac")
+		)
+		(pin "5"
+			(uuid "90a58c03-a93c-4679-870a-671b4a803f57")
+		)
+		(pin "10"
+			(uuid "234fe4ce-4d79-4dd6-80df-67391af5a1c4")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Transistors:PNP,SS8550 Y2 200-350")
+		(at 185.42 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "462fcc08-7b42-4b95-abbc-e777a1ae64c5")
+		(property "Reference" "Q5"
+			(at 190.5 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8550 Y2 200-350"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at 183.642 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810161212_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8550-Y2-RANGE-200-350_C8542.pdf"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 300mW 200@100mA,1V 1.5A PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8542"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1165634"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors,Bipolar Transistors - BJT"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS8550 Y2(RANGE:200-350)"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "100MHz"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Cut-Off Current (Icbo)" "100nA"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "200@100mA,1V"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "300mW"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "1.5A"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@800mA,80mA"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "25V"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c74e9185-f35e-4b22-bb85-ebf79db3fcf3")
+		)
+		(pin "3"
+			(uuid "d68d2bc0-0816-4bc4-ba52-269ce1f229f9")
+		)
+		(pin "2"
+			(uuid "f112443d-da3e-4d01-865d-427fdf08ba84")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Transistors:PNP,SS8550 Y2 200-350")
+		(at 213.36 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "475bfb42-6481-46eb-af10-e735e2f6120c")
+		(property "Reference" "Q2"
+			(at 218.44 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8550 Y2 200-350"
+			(at 218.44 152.4 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at 211.582 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810161212_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8550-Y2-RANGE-200-350_C8542.pdf"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 300mW 200@100mA,1V 1.5A PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8542"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1165634"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors,Bipolar Transistors - BJT"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS8550 Y2(RANGE:200-350)"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "100MHz"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Cut-Off Current (Icbo)" "100nA"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "200@100mA,1V"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "300mW"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "1.5A"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@800mA,80mA"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "25V"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c837330-675a-452d-89e6-f405cf8be188")
+		)
+		(pin "3"
+			(uuid "8470062d-eb3a-4ad3-b9bf-d3a3d3575884")
+		)
+		(pin "2"
+			(uuid "26990441-2cad-4fb0-872c-ddc1cdf4704d")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 307.34 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cedac57-fb64-4a5c-9966-a032cfad50a4")
+		(property "Reference" "R19"
+			(at 307.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 307.34 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 307.34 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 307.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8b7df07-91eb-4874-8f48-d25e8b7c37fc")
+		)
+		(pin "2"
+			(uuid "b2e1f232-d91d-4a5d-bee4-ea36ee7ae1e2")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 355.6 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "586a13c8-3aa5-423a-b4a1-f429f1a9fb46")
+		(property "Reference" "#PWR037"
+			(at 355.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 355.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 355.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44c19cc9-4b09-4679-bb79-1b66a92d9c72")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 394.97 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5c06f966-3c52-46f9-bd79-898d64b8bf71")
+		(property "Reference" "U19"
+			(at 394.97 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 394.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 394.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 392.684 159.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 394.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "7daf6e18-e0d1-4b98-a396-6216d38f17a3")
+		)
+		(pin "9"
+			(uuid "213d38d0-fbc5-403d-9bb8-1d047e690245")
+		)
+		(pin "7"
+			(uuid "2e567cbe-d93e-45b6-bb2e-16a5a24cb78d")
+		)
+		(pin "6"
+			(uuid "36e882fc-1619-4e72-843c-76bdd624ae43")
+		)
+		(pin "14"
+			(uuid "948e9be1-7fa9-4808-974b-9aa24831fc17")
+		)
+		(pin "2"
+			(uuid "8b1bba52-b67f-471f-843d-956c23fd75b4")
+		)
+		(pin "4"
+			(uuid "df76e838-9d09-4d12-b20d-8754ab3f38cc")
+		)
+		(pin "3"
+			(uuid "db88433d-9ae3-4509-8ce7-432d01f22a3e")
+		)
+		(pin "13"
+			(uuid "a7881b33-e8bf-4027-94b3-8d31a093808f")
+		)
+		(pin "16"
+			(uuid "8a82730e-fba3-4bc7-bbe5-faddf551b98d")
+		)
+		(pin "1"
+			(uuid "f1cacc96-8d8e-426a-954d-87773a4b475b")
+		)
+		(pin "15"
+			(uuid "6f85faca-3e98-4974-90f7-ff2016dc858c")
+		)
+		(pin "8"
+			(uuid "f0f847ca-9fe4-404d-8242-18b6f6ab8e5d")
+		)
+		(pin "12"
+			(uuid "84c91c80-2898-4b26-90e7-e29e8581e014")
+		)
+		(pin "5"
+			(uuid "fcf4018a-c4f6-4b37-b0ff-c988d7fefe43")
+		)
+		(pin "10"
+			(uuid "ae51c941-0ab3-4afe-8302-39df5c8c42d9")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 394.97 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "651a3497-1772-4020-93b2-5db6db232464")
+		(property "Reference" "U15"
+			(at 394.97 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 394.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 394.97 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 392.684 37.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 394.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "afbf0884-c0d1-4394-96c9-4689fdef16ee")
+		)
+		(pin "9"
+			(uuid "1d0d7463-302a-4275-8b7b-816b73ef57a0")
+		)
+		(pin "7"
+			(uuid "1a7788b7-16d3-40ec-9ccd-db920f36137b")
+		)
+		(pin "6"
+			(uuid "10019b20-4024-456e-b593-6b6cc9afc855")
+		)
+		(pin "14"
+			(uuid "a58ba47a-5277-4431-996c-feeb4a7e8f14")
+		)
+		(pin "2"
+			(uuid "01412328-2b76-468a-93be-333ec9776a78")
+		)
+		(pin "4"
+			(uuid "964a77e7-431e-4a61-9049-beaeacdded26")
+		)
+		(pin "3"
+			(uuid "781504bc-2530-46a8-872c-2eddd6bd04eb")
+		)
+		(pin "13"
+			(uuid "b67861b3-cb9e-418f-b97a-82bee96a6721")
+		)
+		(pin "16"
+			(uuid "ad4b2e83-2f0f-4d32-9968-73abb35d8699")
+		)
+		(pin "1"
+			(uuid "bca0d962-9a96-4202-afb0-8027d6ccd9de")
+		)
+		(pin "15"
+			(uuid "be0832d8-0a77-4b8a-a46d-e6688625fdf2")
+		)
+		(pin "8"
+			(uuid "c1aae7cf-6ba5-4164-ae4e-981e358973cf")
+		)
+		(pin "12"
+			(uuid "47090fba-a899-4536-a367-be73c87a2aaa")
+		)
+		(pin "5"
+			(uuid "fedad537-41c4-4637-ac34-ede084c00d1d")
+		)
+		(pin "10"
+			(uuid "98225d45-518d-4677-a922-8f45c0af86d8")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "676ff883-9eb6-46a7-b699-cccdd3d166c4")
+		(property "Reference" "R25"
+			(at 166.37 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 166.37 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 166.37 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7543e26-2c46-4eef-bc43-b2966e41a801")
+		)
+		(pin "2"
+			(uuid "f650343b-52e5-4eac-b699-f06a857cca60")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bcb3bc5-6aba-4843-b595-689244d10d5e")
+		(property "Reference" "R24"
+			(at 157.48 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 157.48 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 157.48 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3363584f-66d4-4730-854b-a80acfdaaf18")
+		)
+		(pin "2"
+			(uuid "5ea8b453-2ad0-4440-8b57-e95f1811aa5f")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 118.11 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6bfecb67-9504-4ab9-9c0b-2d0fbc465290")
+		(property "Reference" "U6"
+			(at 120.2533 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 120.2533 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+			(at 118.11 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 118.11 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906780"
+			(at 118.11 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ee6ea4f5-6ff6-432c-b4f6-c2da64b6642e")
+		)
+		(pin "12"
+			(uuid "033012da-1b28-4bf0-a764-c1b4f9983f9a")
+		)
+		(pin "8"
+			(uuid "e6775ce0-d805-48b5-a88f-c57cf744d7ee")
+		)
+		(pin "6"
+			(uuid "8fd32f0e-4811-46d7-9b54-5aae9b2b25ba")
+		)
+		(pin "1"
+			(uuid "3a52ec14-88d3-4e4d-b937-3cc6696f1775")
+		)
+		(pin "10"
+			(uuid "eb98172b-ed79-461c-b93e-ad0335f9311a")
+		)
+		(pin "5"
+			(uuid "279e7a51-15d1-43b0-a85d-312f7d3a1838")
+		)
+		(pin "9"
+			(uuid "84fc0962-4d94-4f7a-b9db-61eb976cb96d")
+		)
+		(pin "15"
+			(uuid "70641522-c313-4605-8f74-af49f3e5a956")
+		)
+		(pin "16"
+			(uuid "bf2864b2-7c8a-406a-a1ed-a5d59e1b5c7d")
+		)
+		(pin "3"
+			(uuid "14392033-afe3-45fd-b51c-07dbb2322539")
+		)
+		(pin "2"
+			(uuid "a84e8b6d-7703-47b5-8416-0bcbc81ea9a6")
+		)
+		(pin "11"
+			(uuid "cd1dbca9-7272-4d0c-9fdd-60e3f6b8005e")
+		)
+		(pin "7"
+			(uuid "e9eab3d5-97db-4b35-b95c-db700b94eb2e")
+		)
+		(pin "13"
+			(uuid "f77ad3ac-9c55-4b2d-904d-1a716fd839d2")
+		)
+		(pin "14"
+			(uuid "1627f9b3-2fef-4904-a9cb-15852de15997")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 293.37 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e011d2e-3716-4393-8edb-c3e225d89140")
+		(property "Reference" "R13"
+			(at 293.37 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 293.37 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 293.37 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 293.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a345416-5f15-461f-beaf-95273bebaa57")
+		)
+		(pin "2"
+			(uuid "e1559528-d563-47c1-ae46-43ef18af8678")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 118.11 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "74215ccb-1770-4030-b217-7d8ba4b1f9ef")
+		(property "Reference" "U7"
+			(at 120.2533 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 120.2533 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+			(at 118.11 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 118.11 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906780"
+			(at 118.11 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "77d0266f-9a2a-4006-9757-108eb99bbf02")
+		)
+		(pin "12"
+			(uuid "1e0086c0-0446-4259-8409-57c4bdbb6704")
+		)
+		(pin "8"
+			(uuid "ee0950bf-791d-4f35-925a-bc5ba0a37be5")
+		)
+		(pin "6"
+			(uuid "a0a5ebed-5e11-4993-b6cc-a027cebd075d")
+		)
+		(pin "1"
+			(uuid "bd5f42ea-e886-4941-9ca2-ef3d22a1b03c")
+		)
+		(pin "10"
+			(uuid "a41b9863-868f-4f68-81c9-26fa8d03abf7")
+		)
+		(pin "5"
+			(uuid "1a683adb-fc93-49cd-810d-48836ff8d00e")
+		)
+		(pin "9"
+			(uuid "68232105-fba0-4611-a959-ae88a415c72a")
+		)
+		(pin "15"
+			(uuid "f7a8c060-b4db-450b-a46e-1e3566b1576a")
+		)
+		(pin "16"
+			(uuid "717808b6-eca4-4c1b-93b0-d4314b35b09b")
+		)
+		(pin "3"
+			(uuid "7d44702a-ead9-45e8-955c-24684145239c")
+		)
+		(pin "2"
+			(uuid "018676ef-1edd-4e9d-a0e2-e05cb295a557")
+		)
+		(pin "11"
+			(uuid "4d8ae03e-7562-4a71-94ff-f8889d14d744")
+		)
+		(pin "7"
+			(uuid "f26a707f-a364-4cc7-87f8-4be6370193d3")
+		)
+		(pin "13"
+			(uuid "7de7b1da-75a1-4cc7-9621-7be8153c3f9a")
+		)
+		(pin "14"
+			(uuid "4ac638f0-7214-42a5-b570-0a3630895215")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 394.97 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7d9d1850-36f4-4a62-a348-76770bfa1e4c")
+		(property "Reference" "U16"
+			(at 394.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 394.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 394.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 392.684 67.183 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "d4453339-309a-403c-a382-e16f32c62176")
+		)
+		(pin "9"
+			(uuid "302a2255-e408-48fb-a97f-c79b5e8fcdca")
+		)
+		(pin "7"
+			(uuid "7ff05c62-33a0-4bb2-bd96-1aaaa0422c7f")
+		)
+		(pin "6"
+			(uuid "b73e971e-0b54-4a44-8565-678d456e2736")
+		)
+		(pin "14"
+			(uuid "5a8bb473-b09d-4097-af45-04a65a1a00fd")
+		)
+		(pin "2"
+			(uuid "4e902401-709a-4344-af0b-d588a1856741")
+		)
+		(pin "4"
+			(uuid "86b16cc5-965a-42d3-b0c5-7bc286be7fc6")
+		)
+		(pin "3"
+			(uuid "9dda6f9f-c822-4dd4-9fd2-949ff4e0dd2f")
+		)
+		(pin "13"
+			(uuid "9f9d3668-2c8a-4b2f-9418-139dc99eaf1d")
+		)
+		(pin "16"
+			(uuid "8bbae1e7-0f4b-4abc-b4d4-5b26f534d9f6")
+		)
+		(pin "1"
+			(uuid "323b2a4c-9f60-4036-8298-026595c7a944")
+		)
+		(pin "15"
+			(uuid "f64db313-f61e-4c25-9189-e95bc4f5c5ce")
+		)
+		(pin "8"
+			(uuid "24d877fd-2546-46ee-957e-429d149f9c2f")
+		)
+		(pin "12"
+			(uuid "ffab2cef-b1ba-4ff8-abc3-15bb8a5170b8")
+		)
+		(pin "5"
+			(uuid "ca0493ac-a95f-4879-9592-47b9ca5a6540")
+		)
+		(pin "10"
+			(uuid "b88d69d6-e53a-42f3-98fd-958c0dca23c9")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 342.9 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "986d91d8-66ac-48d4-bb48-2b91cb7ff879")
+		(property "Reference" "U12"
+			(at 342.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 342.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 340.614 129.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 342.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "e8570683-0a2c-4adb-bf97-ac645b8d7909")
+		)
+		(pin "9"
+			(uuid "32ff4040-9f42-401d-b058-8fbf5573bdc5")
+		)
+		(pin "7"
+			(uuid "17d4509a-89a1-4ac9-8058-0767eed11336")
+		)
+		(pin "6"
+			(uuid "ec7567e0-a80f-44d0-80d4-03e03787993b")
+		)
+		(pin "14"
+			(uuid "0a517041-e5fe-469e-bd98-41d252d6ba72")
+		)
+		(pin "2"
+			(uuid "86722ea2-f2b0-409f-9b1d-a0240ecae9a2")
+		)
+		(pin "4"
+			(uuid "ed9860e6-3bd7-4a8b-88d4-8c3416485374")
+		)
+		(pin "3"
+			(uuid "341c3910-2ba8-4d64-a6c7-bd36c0219cc5")
+		)
+		(pin "13"
+			(uuid "8efffb43-9d26-4439-b302-7bb5f128dda9")
+		)
+		(pin "16"
+			(uuid "aed4bea8-88d6-44d8-978e-339e6e975ac0")
+		)
+		(pin "1"
+			(uuid "389f14cb-79d8-44d3-8d25-85c8eae05bf0")
+		)
+		(pin "15"
+			(uuid "4e110206-d961-4df5-b5a7-b9df856573bc")
+		)
+		(pin "8"
+			(uuid "b2e14249-5497-4448-ad37-0a2019d7175e")
+		)
+		(pin "12"
+			(uuid "eb2910fc-2d44-4cf0-bdda-767949da835a")
+		)
+		(pin "5"
+			(uuid "38aeb06b-529f-4bd6-9006-4ff1b6572869")
+		)
+		(pin "10"
+			(uuid "9a7145d9-41f1-403b-97bc-38daae7466f1")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 279.4 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d352b2b-a5ed-42f8-b3f2-89915b6be116")
+		(property "Reference" "R28"
+			(at 279.4 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "130"
+			(at 279.4 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 279.4 24.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 279.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ac688bc-a981-4116-add2-e56a89d08d66")
+		)
+		(pin "2"
+			(uuid "9c3c8d33-313d-4094-a38f-bb70bf043129")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 354.33 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef89c55-6db0-47e9-95df-d5dbd2148e3a")
+		(property "Reference" "#PWR035"
+			(at 354.33 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 354.33 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 354.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a860f4b2-453a-44a7-a78d-28f6051b8cb5")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 118.11 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a211368e-8457-420a-b41d-43dd29c988f1")
+		(property "Reference" "#PWR031"
+			(at 118.11 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "236d8edf-4f28-4e56-b21a-9ea6d2d90a77")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 104.14 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7bf655e-10e9-44c0-a810-66626bbadd97")
+		(property "Reference" "#PWR03"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c4befc-8578-4794-ba83-c78ab7eba262")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 311.15 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b83a4a0b-b7e4-42fc-ac93-7d9c4a2cbe13")
+		(property "Reference" "R21"
+			(at 311.15 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 311.15 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 311.15 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 311.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4338a2fc-a103-4043-be6f-fe2bd2c9ed94")
+		)
+		(pin "2"
+			(uuid "6becf512-e408-4052-a071-426281a23c60")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 342.9 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c20fd2bb-f58a-4e14-a77f-3e21a4910788")
+		(property "Reference" "U11"
+			(at 342.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 342.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 340.614 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 342.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "6f5a407a-4bd0-4d38-bdec-7f4e727b722c")
+		)
+		(pin "9"
+			(uuid "a6cacd6e-8bfe-4066-85b4-16e4f396d278")
+		)
+		(pin "7"
+			(uuid "a439d9a9-fc48-44c0-936a-0894c6f8fc1d")
+		)
+		(pin "6"
+			(uuid "80742584-9f83-436c-a433-f81b83fdf977")
+		)
+		(pin "14"
+			(uuid "6b9c596d-9944-4853-a0b0-f048a8907386")
+		)
+		(pin "2"
+			(uuid "ad70d79c-4474-4a26-9fbd-81fd68167851")
+		)
+		(pin "4"
+			(uuid "89dfe376-6f09-4635-be11-6f1469145a1e")
+		)
+		(pin "3"
+			(uuid "08ed6659-0a14-43f5-a5c3-671887196a56")
+		)
+		(pin "13"
+			(uuid "1747d867-d395-45d1-9e78-33289153d318")
+		)
+		(pin "16"
+			(uuid "133fbeef-3d6a-4450-be18-f5c1d0ee3829")
+		)
+		(pin "1"
+			(uuid "e3e9747a-8be8-455e-a4ba-4b914610b4b1")
+		)
+		(pin "15"
+			(uuid "ba1e0a99-9b34-4d1f-adc5-a5bdd5b93f1e")
+		)
+		(pin "8"
+			(uuid "6012a1a9-4194-469d-a08f-986355f1f7df")
+		)
+		(pin "12"
+			(uuid "48a60c51-e32f-4044-bb6a-d18be448266e")
+		)
+		(pin "5"
+			(uuid "30d374f4-656d-4d5f-94a8-d59c3169b521")
+		)
+		(pin "10"
+			(uuid "60cd55bd-4d63-4134-8b41-d7889155892a")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e7347b-20d6-4153-9683-95c4034ecd57")
+		(property "Reference" "#PWR032"
+			(at 326.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "266f5ea0-3fbd-42e1-8aae-76c1d2a52cab")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 54.61 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c83c53f1-c246-4ef3-9ea0-50974d783e25")
+		(property "Reference" "U8"
+			(at 56.7533 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 56.7533 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906780"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9815865b-a213-4376-9bbc-bd7fc118647c")
+		)
+		(pin "12"
+			(uuid "d2670112-ecc3-4f10-a4c4-459d826eed54")
+		)
+		(pin "8"
+			(uuid "a88638da-9d4c-41e2-93d7-400cd8d87175")
+		)
+		(pin "6"
+			(uuid "9ba879a2-3c09-4238-849e-2184f161933b")
+		)
+		(pin "1"
+			(uuid "26643c6e-0a2c-44ef-87e9-32127cdc61fd")
+		)
+		(pin "10"
+			(uuid "84ebf1ca-6739-495a-9612-58373d274943")
+		)
+		(pin "5"
+			(uuid "02e69123-0527-498a-87e5-4bdaca148ee0")
+		)
+		(pin "9"
+			(uuid "7681c300-0574-42ec-8cdd-a641f1ad619e")
+		)
+		(pin "15"
+			(uuid "0f5306bf-e74e-414b-85cd-72a836ab8076")
+		)
+		(pin "16"
+			(uuid "ced525c9-00e8-4e4b-b55b-f0fd3eaee282")
+		)
+		(pin "3"
+			(uuid "f458ab63-e025-4903-9c2f-a595b0c15ea9")
+		)
+		(pin "2"
+			(uuid "d4189b3e-5739-4763-9d18-73b113b063b4")
+		)
+		(pin "11"
+			(uuid "12718577-cd9f-47ab-8d4d-6d0442e7def3")
+		)
+		(pin "7"
+			(uuid "ff50ad17-6bcc-4abc-abe8-eb787b29cb19")
+		)
+		(pin "13"
+			(uuid "3c7ff2e0-44f7-4aa1-9f85-717e623b3d24")
+		)
+		(pin "14"
+			(uuid "b272ead9-e5aa-4155-8120-5159c2cbd1d3")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 292.1 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc9eebe0-e601-4d45-aec8-11f809a63656")
+		(property "Reference" "R30"
+			(at 292.1 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "130"
+			(at 292.1 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 292.1 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 292.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f23fc8-1745-4790-b011-902f9919b660")
+		)
+		(pin "2"
+			(uuid "4813fd3c-6727-4c85-b46e-15e2e00a9d52")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 304.8 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0c1c075-ade2-40e0-a38b-b8b1dbb06249")
+		(property "Reference" "R18"
+			(at 304.8 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 304.8 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 304.8 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f443a15f-d0da-43a3-be31-1a0a46da145a")
+		)
+		(pin "2"
+			(uuid "b3e29bcb-1f49-4ed9-9223-6950e93563fe")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 118.11 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d18c438f-51f3-484e-94e7-14bcad34188a")
+		(property "Reference" "U5"
+			(at 120.2533 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 120.2533 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+			(at 118.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 118.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906780"
+			(at 118.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cc423eb5-12da-4f5e-885e-4358d99fdb3a")
+		)
+		(pin "12"
+			(uuid "4e5f1b6d-debd-4082-9c6b-f3a9b2e35eea")
+		)
+		(pin "8"
+			(uuid "5a3adb91-d1e0-4a02-8d16-12580624d90a")
+		)
+		(pin "6"
+			(uuid "2ed25096-6a69-4fb1-9be1-8639ba757dc8")
+		)
+		(pin "1"
+			(uuid "daeec59e-3176-490e-abed-0206b0546fd5")
+		)
+		(pin "10"
+			(uuid "61c92e8b-62bd-4b50-b41e-8b5afc65970d")
+		)
+		(pin "5"
+			(uuid "f678ebdd-028a-42ba-a5db-13c431d35f81")
+		)
+		(pin "9"
+			(uuid "12b94444-aa13-4813-af5e-1f99f5830fb0")
+		)
+		(pin "15"
+			(uuid "e3aa4467-17ba-4bc6-9415-92254f1182dc")
+		)
+		(pin "16"
+			(uuid "de1dbfeb-bb6c-41e9-9737-288a946985cc")
+		)
+		(pin "3"
+			(uuid "2212130c-3a63-4def-a0b3-2c1a157596f3")
+		)
+		(pin "2"
+			(uuid "424165e4-8b90-435b-b6cb-8b9632b11203")
+		)
+		(pin "11"
+			(uuid "91f9222f-2338-4459-8666-4b84eb7e8bb4")
+		)
+		(pin "7"
+			(uuid "6bcd3708-9ea0-44a8-8226-ef77bca4db0b")
+		)
+		(pin "13"
+			(uuid "7ee47571-4a0b-42e8-b0f0-3ec09408d0a8")
+		)
+		(pin "14"
+			(uuid "caec4c28-b250-4b0b-a55c-246b0c397ff1")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d343ba3a-c922-408d-9662-dda6a2b66254")
+		(property "Reference" "R27"
+			(at 179.07 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 179.07 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 179.07 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "056644ec-8c44-471c-904b-6b3d3e1ffbf5")
+		)
+		(pin "2"
+			(uuid "a5921428-4a8a-4d97-a8b1-371eebcf1d44")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4043ff9-5fe3-4052-89c3-d5ebc97bcf8b")
+		(property "Reference" "#PWR033"
+			(at 326.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "144c4d96-9995-45d1-afde-6f097f63029b")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 290.83 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9ce0f98-1315-43a2-a0c9-b1ee7ceefc30")
+		(property "Reference" "R12"
+			(at 290.83 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 290.83 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 290.83 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 290.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e155fd4-0abc-4c28-b720-eccdb011a09a")
+		)
+		(pin "2"
+			(uuid "f0535e1d-d828-44f6-81a9-978818dfce43")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 118.11 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da652b34-97e5-4ec8-983e-f21bd0fa892f")
+		(property "Reference" "U4"
+			(at 120.2533 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 120.2533 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:JEITA_SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906780"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b3b76d30-01a9-496e-8eeb-722d20c27c35")
+		)
+		(pin "12"
+			(uuid "0c383f84-ca39-4cd7-a008-8395e79dbebe")
+		)
+		(pin "8"
+			(uuid "9305ec7d-285e-490b-b105-0cf9d0e63c1d")
+		)
+		(pin "6"
+			(uuid "5af51f8d-9012-45e9-92f8-60f5ed7050b4")
+		)
+		(pin "1"
+			(uuid "a2eb59aa-8bb1-4890-9795-a2d863e4d5a7")
+		)
+		(pin "10"
+			(uuid "f4cac0ed-3822-48dc-9a07-2f8d2dc48c6b")
+		)
+		(pin "5"
+			(uuid "fed22122-a5bb-4062-82fe-344ef27c665c")
+		)
+		(pin "9"
+			(uuid "237d31a6-bce8-40d5-bb98-9d76cb75bdbc")
+		)
+		(pin "15"
+			(uuid "f9b819fa-537c-4c7f-91e8-fad5c978fae6")
+		)
+		(pin "16"
+			(uuid "cdf2f790-08a3-42eb-8f8d-36e56f6590c5")
+		)
+		(pin "3"
+			(uuid "e2826e72-220a-4e19-ac2f-c77ddc757a6a")
+		)
+		(pin "2"
+			(uuid "9b61af8c-e6bc-421c-8c84-203a186d7b33")
+		)
+		(pin "11"
+			(uuid "2ef74157-ca37-4238-bd9c-fe6d6cdec6e6")
+		)
+		(pin "7"
+			(uuid "1f4b5eae-f908-4493-a282-abf2fc555c01")
+		)
+		(pin "13"
+			(uuid "3c193737-cfd6-4c59-9233-8647e24f4e16")
+		)
+		(pin "14"
+			(uuid "3e75a93e-8f4b-43fd-a946-2e2f63535d7b")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 394.97 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dc047f48-9e00-42aa-b6a7-84d350a3f7fb")
+		(property "Reference" "U17"
+			(at 394.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 394.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 394.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 392.684 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "f580475b-41ef-4cf4-a592-e1df88cd218b")
+		)
+		(pin "9"
+			(uuid "f792b327-fa45-4ee5-ba2d-f0dfae5733df")
+		)
+		(pin "7"
+			(uuid "626a4d8d-0d02-4887-b640-bc68f4d65e93")
+		)
+		(pin "6"
+			(uuid "40055c19-0eca-4508-987a-e121e1838149")
+		)
+		(pin "14"
+			(uuid "48422789-5587-4a21-bfaf-78c1da529c8b")
+		)
+		(pin "2"
+			(uuid "9dfe2c1f-21c6-43a6-9def-975a85aefa2b")
+		)
+		(pin "4"
+			(uuid "04b3aa1d-ef88-48f6-94d1-b12d86f9f100")
+		)
+		(pin "3"
+			(uuid "32e5a9be-0e6c-4456-b26c-02dadabf462a")
+		)
+		(pin "13"
+			(uuid "4831e5f7-21d0-4330-911c-ada88e1d6465")
+		)
+		(pin "16"
+			(uuid "55ade55f-3f09-46a2-b615-37a4d4f35544")
+		)
+		(pin "1"
+			(uuid "65d45a2e-1b11-4f24-a268-9ad489151c02")
+		)
+		(pin "15"
+			(uuid "e7a44a2e-9057-4e0a-b829-909cb81be833")
+		)
+		(pin "8"
+			(uuid "b3eb1956-60a8-4257-a5f1-2e19e9d0b459")
+		)
+		(pin "12"
+			(uuid "17997daf-6f42-4ed4-9cbb-25ceb128fe82")
+		)
+		(pin "5"
+			(uuid "b0b48b30-fddf-409f-b0cc-09efd61dd5fc")
+		)
+		(pin "10"
+			(uuid "2d910af6-5687-4e37-8069-9d2e3285f726")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 299.72 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddbcb3b0-14f5-40a9-b05f-52935748b364")
+		(property "Reference" "R16"
+			(at 299.72 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 299.72 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.72 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 299.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1f33f0f-48c2-439d-a1b8-8acd43bd0d3c")
+		)
+		(pin "2"
+			(uuid "795b52ee-9f06-4094-8dc1-1c13fff183f9")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Transistors:PNP,SS8550 Y2 200-350")
+		(at 199.39 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea5c5607-51f5-475e-8604-fd9be3a9fed1")
+		(property "Reference" "Q1"
+			(at 204.47 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8550 Y2 200-350"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at 197.612 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810161212_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8550-Y2-RANGE-200-350_C8542.pdf"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 300mW 200@100mA,1V 1.5A PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8542"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1165634"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors,Bipolar Transistors - BJT"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS8550 Y2(RANGE:200-350)"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "100MHz"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Cut-Off Current (Icbo)" "100nA"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "200@100mA,1V"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "300mW"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "1.5A"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@800mA,80mA"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "25V"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd128e2e-8208-4392-bd4d-215f2ee7fc43")
+		)
+		(pin "3"
+			(uuid "bd33775d-38af-447b-b1a4-094cd792731a")
+		)
+		(pin "2"
+			(uuid "1472f9e4-5217-4b95-a2ae-20e2988c3243")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 394.97 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ea90afa5-e2a9-4bec-9771-94dab577166b")
+		(property "Reference" "U18"
+			(at 394.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 394.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 394.97 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 392.684 130.683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "1d17df93-76f8-4ce6-806a-c625c6cbf035")
+		)
+		(pin "9"
+			(uuid "b95805c2-2c58-4745-865b-668a09542f1d")
+		)
+		(pin "7"
+			(uuid "0fbea8e8-8222-4e37-8d1b-2a7754eca37c")
+		)
+		(pin "6"
+			(uuid "673d3523-ca98-4bb7-8c59-9e7fc3d96868")
+		)
+		(pin "14"
+			(uuid "7dd2514d-e8f4-4cd5-9e83-ca0c1202dbf0")
+		)
+		(pin "2"
+			(uuid "469a7016-838a-43fe-87c0-5345eb10cb94")
+		)
+		(pin "4"
+			(uuid "30b74231-6663-4d58-a5ca-65af045bc0d8")
+		)
+		(pin "3"
+			(uuid "ca3e9f92-61d4-4060-9ac8-ab81cd3c269b")
+		)
+		(pin "13"
+			(uuid "1d3bc0c5-0a60-467f-ae14-47ab7d90bf6c")
+		)
+		(pin "16"
+			(uuid "ff7c346e-e7dd-43f0-be57-96fe9a8faff3")
+		)
+		(pin "1"
+			(uuid "02748a35-dd4f-4b45-9679-998ac59e4f48")
+		)
+		(pin "15"
+			(uuid "8ae2a972-6f97-48c6-ac43-f20eb3db8097")
+		)
+		(pin "8"
+			(uuid "9213f162-5c45-48b5-9ccf-ae51e601e478")
+		)
+		(pin "12"
+			(uuid "061fa3b8-2796-433e-afa4-9001508d3bd8")
+		)
+		(pin "5"
+			(uuid "332b3924-756d-411b-95f2-8c4cc19477e6")
+		)
+		(pin "10"
+			(uuid "38c99ffd-fb71-40d5-a91a-8c35e38ce120")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Transistors:PNP,SS8550 Y2 200-350")
+		(at 227.33 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed466d7c-4618-48ab-823e-3f09b2fe6d79")
+		(property "Reference" "Q3"
+			(at 232.41 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8550 Y2 200-350"
+			(at 232.41 158.75 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at 225.552 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810161212_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8550-Y2-RANGE-200-350_C8542.pdf"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 300mW 200@100mA,1V 1.5A PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8542"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1165634"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors,Bipolar Transistors - BJT"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS8550 Y2(RANGE:200-350)"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "100MHz"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Cut-Off Current (Icbo)" "100nA"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "200@100mA,1V"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "300mW"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "1.5A"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@800mA,80mA"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "25V"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bbea380-fe97-447d-b071-15e70b4317fe")
+		)
+		(pin "3"
+			(uuid "ea4a0347-11cd-4a08-827a-bef57853bf72")
+		)
+		(pin "2"
+			(uuid "affd678e-78e2-47ef-8a13-72694ce68240")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed93d32e-c2e4-475e-92a7-d4138a211cc2")
+		(property "Reference" "#PWR034"
+			(at 326.39 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0df094b-8724-4072-95e4-6840f00673bd")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efab7d4e-55be-4393-9051-2275ebba3980")
+		(property "Reference" "#PWR011"
+			(at 118.11 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7208f68b-1f01-41fc-adb8-6f23eaa031cf")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 299.72 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a2783d-868d-4a5e-9767-0f2a3d0b57ac")
+		(property "Reference" "R31"
+			(at 299.72 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "130"
+			(at 299.72 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.72 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 299.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "829b7db4-5647-4f59-9f2b-3ba8eabbaa3a")
+		)
+		(pin "2"
+			(uuid "920b2089-a0fc-499d-9b5b-3ff1e3001a3b")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 285.75 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f25b232f-10a8-425a-8940-234f6ab9ab77")
+		(property "Reference" "R29"
+			(at 285.75 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "130"
+			(at 285.75 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 285.75 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 285.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae51e5e1-f02a-45dd-9956-3a8b29cde62e")
+		)
+		(pin "2"
+			(uuid "c9ac7208-c112-4218-ace8-1d0b73ff4efb")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-ICs:Shift Register, 1 In, 8 Out, 74HC595D,118")
+		(at 394.97 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f953a62c-44b2-4baf-bb2f-eb91c95e098d")
+		(property "Reference" "U20"
+			(at 394.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D"
+			(at 394.97 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 394.97 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC595D-118_C5947.pdf"
+			(at 392.684 190.373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 2V~6V 1 Serial to serial or parallel SOIC-16 Shift Registers ROHS"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "361838"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.126USD"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Logic ICs,Registers"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "74HC595D,118"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply Voltage" "2V~6V"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Tri-State"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Bits Per Element" "8"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "40°C~+125°C"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "串行至并行或串行"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Series" "74HC"
+			(at 394.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "f995db67-ae59-4f59-a0b0-2cd79a069510")
+		)
+		(pin "9"
+			(uuid "d27bf0d5-51ad-4c36-9ed3-04bcbf8425a3")
+		)
+		(pin "7"
+			(uuid "b4e93f20-1d1c-4b58-8eaa-566f397df046")
+		)
+		(pin "6"
+			(uuid "1a1ae980-bc98-48dc-9f5c-4acb2a857026")
+		)
+		(pin "14"
+			(uuid "58b3fde5-ece7-4405-a720-132b1a18e1c0")
+		)
+		(pin "2"
+			(uuid "05b01fe4-b4b6-4706-ad82-5d342ed333ad")
+		)
+		(pin "4"
+			(uuid "8aa90532-b252-481c-b665-471beee799b2")
+		)
+		(pin "3"
+			(uuid "89045983-926d-4e3c-8cb2-215e19f81020")
+		)
+		(pin "13"
+			(uuid "bfa707b3-5259-45fb-a0c5-f3b60e195501")
+		)
+		(pin "16"
+			(uuid "fdc0a9b2-5f49-48e9-9034-4ef909883005")
+		)
+		(pin "1"
+			(uuid "1fef3937-e11a-435d-932b-98ab23af9b71")
+		)
+		(pin "15"
+			(uuid "d6e10aa0-a3dc-499c-aa1c-21b713bd6bc3")
+		)
+		(pin "8"
+			(uuid "17c24c96-4b57-423d-adb8-9545836df8c8")
+		)
+		(pin "12"
+			(uuid "3d3e432c-e785-4c24-a9d2-8a3cc5d9119d")
+		)
+		(pin "5"
+			(uuid "601fe354-fd61-4e9c-8323-1441271981ac")
+		)
+		(pin "10"
+			(uuid "8d3b703a-ed79-4767-a33e-b920a941c6dd")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 183.515 35.56)
+		(size 50.165 77.47)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f661e7f-82f2-4355-9871-5cba21daf48f")
+		(property "Sheetname" "LED_matrix"
+			(at 183.515 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 183.515 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+0" input
+			(at 187.96 113.03 270)
+			(uuid "922e1aa0-767a-4b38-b730-ecc4e1b2b5a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1" input
+			(at 201.93 113.03 270)
+			(uuid "3a181cf5-9ade-48b5-b37d-b6aeb8672d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+2" input
+			(at 215.9 113.03 270)
+			(uuid "883b93d8-4421-487b-8bec-fdfcdb6293ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3" input
+			(at 229.87 113.03 270)
+			(uuid "f6b071aa-cacd-4df2-a584-869f2e3d95b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B2" input
+			(at 233.68 101.6 0)
+			(uuid "25e32805-8325-4127-808b-f3b583d93fc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B3" input
+			(at 233.68 105.41 0)
+			(uuid "365faf46-c4a8-4fb7-aa3b-1be75372a5b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B1" input
+			(at 233.68 97.79 0)
+			(uuid "3fa4a0df-8d34-4f72-a9e6-b1c81a7b4a68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B0" input
+			(at 233.68 93.98 0)
+			(uuid "6a27d57a-fea2-40aa-91be-58345c324b33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R1" input
+			(at 233.68 45.72 0)
+			(uuid "17e62e19-60ac-4e03-b51f-782f2124711f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R2" input
+			(at 233.68 49.53 0)
+			(uuid "b924edd7-0408-401c-b67e-def85cb071b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R0" input
+			(at 233.68 41.91 0)
+			(uuid "0c2786de-3edb-4523-99d7-45f43c0b4798")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R3" input
+			(at 233.68 53.34 0)
+			(uuid "ded7af76-5570-4a2a-8138-ea4272b9065e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G1" input
+			(at 233.68 73.66 0)
+			(uuid "937da016-27bf-438d-86f7-0e5445095d62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G2" input
+			(at 233.68 77.47 0)
+			(uuid "19d90530-aeb8-4a20-a298-a0b5fe876bd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G3" input
+			(at 233.68 81.28 0)
+			(uuid "e8d28bcb-68d9-408e-846f-719a47c50817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G0" input
+			(at 233.68 69.85 0)
+			(uuid "47714eb4-c949-4990-b4cb-0472cc2eaf5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
+					(page "4")
+				)
+			)
+		)
+	)
+)
