@@ -1,7 +1,7 @@
 (footprint "AOTA-B201610S3R3-101-T"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 	(tags "inductor")
@@ -9,7 +9,7 @@
 		(at 0 -1.17 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5f7cfd23-ba30-4112-8e8a-084eff185daa")
+		(uuid "5337fdf9-f6f2-4b99-8270-28c97bf14ba9")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "AOTA-B201610S3R3-101-T"
 		(at 0 1.17 0)
 		(layer "F.Fab")
-		(uuid "534be459-0d3a-4a4f-839c-04a21d8e5c28")
+		(uuid "b6824907-3a63-45b9-a7e8-7a96f5f0bca3")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d79f787c-2ff0-4a9c-929e-6468f7f934ae")
+		(uuid "7cd5f11a-2cb4-4699-b2f6-f7f55700b41d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dd61140f-62b8-4ee6-8500-52f34f144a47")
+		(uuid "ed37f1f6-12f8-4f85-a980-e55264769928")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,26 +56,27 @@
 	)
 	(solder_mask_margin 0.038)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
-		(center 1.4 -1.2)
-		(end 1.5 -1.2)
+		(center -1.8 -1.1)
+		(end -1.9 -1.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "e7878ae1-46fa-4887-a658-d9c6cb6a8efc")
+		(uuid "5c78871e-074d-4807-8a4f-4c007f25907f")
 	)
 	(fp_line
-		(start -0.9 -0.4)
-		(end -0.9 0.4)
+		(start 0.9 0.4)
+		(end 0.9 -0.4)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "4ac606f5-9d2c-40d2-b7a8-d4b2081c0a7d")
+		(uuid "b5fadcb5-6070-41be-b383-2c12195a860d")
 	)
 	(fp_rect
 		(start -1.6 -0.9)
@@ -86,7 +87,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "dece2502-f4b3-4545-a8f9-65f708a82ab1")
+		(uuid "4c9d0b4c-7231-411b-a0b3-9b5eb9d9237d")
 	)
 	(fp_rect
 		(start -1.5 -0.8)
@@ -97,23 +98,23 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e75389f8-c300-4846-bdaa-2eb8577f31de")
+		(uuid "a2ce1b62-b837-4ea7-8668-58faf1268f60")
 	)
 	(fp_circle
-		(center 1 0)
-		(end 1 0.1)
+		(center -1 0)
+		(end -1 -0.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "95d95ef7-1bc5-4958-97dc-2eba82b9c763")
+		(uuid "148b454d-906f-47fd-9498-7125d9c41f01")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "b97776cd-36ef-4231-b3ff-6fa6e7347e10")
+		(uuid "d9b4903f-3568-4e70-bf33-fb772cbb0fb7")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -122,18 +123,18 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1 0)
+		(at -1 0 180)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "8d57f103-1c4d-42b3-9a1c-788495c7aba4")
+		(uuid "9853891e-e36e-4e52-a470-a4df36438b2b")
 	)
 	(pad "2" smd roundrect
-		(at 1 0)
+		(at 1 0 180)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "5803ccd7-5f47-477b-995b-63712661ba11")
+		(uuid "8e467bc2-db93-4643-85cf-3175714c91fa")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/L_0402.step"

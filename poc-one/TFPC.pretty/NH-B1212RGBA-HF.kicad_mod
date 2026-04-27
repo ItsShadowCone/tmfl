@@ -1,13 +1,13 @@
 (footprint "NH-B1212RGBA-HF"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "dcbf29b8-09b7-44e5-a8de-e141a0c5cacf")
+		(uuid "5a036716-8960-4e7c-ac92-43c51ed38974")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "32e692ac-adae-41d5-ba6b-d9994850e29a")
+		(uuid "7f726463-92b0-4c45-8718-333a75fad741")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "156d1314-e962-401b-bdc0-48fc39ad4610")
+		(uuid "762d7057-c4f8-46b7-961a-4801bdf3f2e4")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d12e8244-6efa-4a25-9e69-6cb172084a77")
+		(uuid "c100ef97-a45f-413a-bcff-73c5b6fc12f9")
 		(effects
 			(font
 				(size 1 1)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd allow_soldermask_bridges)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.7875 -0.5)
 		(end 0.7875 0.5)
@@ -63,13 +64,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "98b14020-9493-4dfb-a7f5-11ed7149b23c")
+		(uuid "e4e015ee-cb33-4530-abbf-9d99f840ba8a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "074d4d22-4c53-4d56-8f8f-9e79f436f168")
+		(uuid "3611d2e3-ab75-4859-a370-179a4525f59f")
 		(effects
 			(font
 				(size 1 1)
@@ -93,7 +94,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "4c32a7ba-f6f4-4d0c-be61-02595f207ff4")
+		(uuid "aa581b10-112e-4559-9474-0f456a696d8e")
 	)
 	(pad "2" smd roundrect
 		(at 0.475 -0.3)
@@ -111,7 +112,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "44ab7819-f83e-420f-9db5-3ac17cae6f27")
+		(uuid "02900f1e-a6d6-48d7-80f2-eda6b784374a")
 	)
 	(pad "3" smd roundrect
 		(at -0.475 -0.3)
@@ -129,7 +130,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "a128e995-df86-44bb-973b-a28ea8d7a45d")
+		(uuid "fadce582-aaac-4da0-b134-6f3d5a9ca2a2")
 	)
 	(pad "4" smd roundrect
 		(at -0.475 0.3)
@@ -147,7 +148,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "224973c9-3ddd-4494-8dff-35aba4958012")
+		(uuid "60b72b13-06e5-4461-a017-27ed3eb6544f")
 	)
 	(embedded_fonts no)
 )
