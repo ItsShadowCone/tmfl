@@ -2139,12 +2139,6 @@
 		(uuid "0bc0a13b-5e85-41a9-92b9-c04d6337a66f")
 	)
 	(junction
-		(at 175.26 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11097836-dc77-473a-bb72-efb144a74c62")
-	)
-	(junction
 		(at 213.36 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2155,6 +2149,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2136b778-e9ff-4cb9-8a63-6d61d6db8324")
+	)
+	(junction
+		(at 175.26 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2395f52e-8406-4925-b4ab-744ad4a4d91b")
 	)
 	(junction
 		(at 374.65 97.79)
@@ -2301,12 +2301,6 @@
 		(uuid "ac050b35-7a48-4d3b-bca9-d4bf613557d0")
 	)
 	(junction
-		(at 175.26 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ade65e7c-5e48-4f0b-9139-1d300ad3ab7c")
-	)
-	(junction
 		(at 190.5 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,6 +2365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4774923-591c-4291-b0a4-feff251603e2")
+	)
+	(junction
+		(at 175.26 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f279edc4-d0fa-4067-8516-8c6a5ac01887")
 	)
 	(junction
 		(at 355.6 87.63)
@@ -5838,7 +5838,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5854,7 +5854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 186.69 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6002,7 +6002,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6018,7 +6018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 201.93 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8419,7 +8419,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -8435,7 +8435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 217.17 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9417,7 +9417,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -9433,7 +9433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 224.79 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +9888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 179.07 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10467,7 +10467,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -10483,7 +10483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 194.31 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11006,7 +11006,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -11022,7 +11022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 209.55 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12097,7 +12097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 171.45 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -12253,7 +12253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.02 170.688 90)
 			(hide yes)
 			(show_name no)
@@ -13353,7 +13353,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -13369,7 +13369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 232.41 175.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14664,7 +14664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 157.48 168.91 0)
 			(hide yes)
 			(show_name no)

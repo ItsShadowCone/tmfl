@@ -4482,7 +4482,7 @@
 	)
 	(text "todo: replace with better specs during mass ordering\n\ncheck actual current draw, and minimize RdsOn of the MOSFET"
 		(exclude_from_sim no)
-		(at 219.456 127 0)
+		(at 220.472 127.762 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4490,9 +4490,9 @@
 		)
 		(uuid "26327b31-831b-4e2a-8c46-365ae03932b9")
 	)
-	(text "todo: calculate thermistor"
+	(text "todo: replace and calculate actual thermistor"
 		(exclude_from_sim no)
-		(at 129.794 101.346 0)
+		(at 140.97 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4510,6 +4510,16 @@
 			)
 		)
 		(uuid "99b1d8bc-10a5-43ed-b75f-47a210a1d119")
+	)
+	(text "V_LTF < V_TS < V_HTF to start\nV_LTF < V_TS < V_TCO while on\n\nV_LTF = 73.5% of REGN\nV_HTF = 47.2% of REGN\nV_TCO = 44.7% of REGN\n\ncurrently: 6.6k / 10k => 66% of REGN constant"
+		(exclude_from_sim no)
+		(at 140.97 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8f07161-411a-4015-8e0c-9b13a35b0728")
 	)
 	(junction
 		(at 125.73 44.45)
@@ -5241,7 +5251,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 86.36) (xy 140.97 86.36)
+			(xy 149.86 86.36) (xy 140.97 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5701,7 +5711,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 148.59 76.2)
+			(xy 149.86 62.23) (xy 149.86 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5731,7 +5741,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 148.59 86.36)
+			(xy 149.86 74.93) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6051,6 +6061,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 85.09) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60b8e53-717a-4b63-a274-b047fc435cbe")
+	)
+	(wire
+		(pts
 			(xy 125.73 64.77) (xy 125.73 67.31)
 		)
 		(stroke
@@ -6061,7 +6081,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 62.23) (xy 148.59 62.23)
+			(xy 133.35 62.23) (xy 149.86 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6265,7 +6285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 113.03 145.2879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127.762 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -6589,7 +6609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 142.24 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6639,7 +6659,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 100.33 140.97 180)
+		(at 77.47 166.37 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6650,7 +6670,7 @@
 		(fields_autoplaced yes)
 		(uuid "119da93c-0827-4a57-bf9c-e9c7a8888d17")
 		(property "Reference" "TP4"
-			(at 102.87 143.0019 0)
+			(at 80.01 168.4019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6660,8 +6680,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 102.87 145.5419 0)
+		(property "Value" "+3V3"
+			(at 80.01 170.9419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6671,8 +6691,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 140.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 72.39 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +6703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 140.97 0)
+			(at 72.39 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +6714,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 100.33 140.97 0)
+			(at 77.47 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6738,7 +6758,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT_SYS_PWR"
+		(property "Value" "BAT_SYS_PWR HY-DSIC02LS"
 			(at 196.85 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,7 +6768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HY-DSIC02LS"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm"
 			(at 196.85 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6836,7 +6856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 146.05 56.1848 0)
 			(hide yes)
 			(show_name no)
@@ -6916,7 +6936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 233.3752 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6997,7 +7017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 86.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7076,7 +7096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 49.8348 0)
 			(hide yes)
 			(show_name no)
@@ -7155,7 +7175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 200.66 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -7236,7 +7256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.3248 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7316,7 +7336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 150.1648 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7394,7 +7414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 46.228 90)
 			(hide yes)
 			(show_name no)
@@ -7476,7 +7496,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 43.18 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7569,7 +7589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7945,7 +7965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 182.88 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +8044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.202 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -8074,7 +8094,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 86.36 140.97 0)
+		(at 77.47 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8085,7 +8105,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aa552c4-7747-425e-bfbf-b72e90a3caf7")
 		(property "Reference" "#PWR056"
-			(at 86.36 144.78 0)
+			(at 77.47 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,7 +8116,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 86.36 135.89 0)
+			(at 77.47 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8106,7 +8126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 140.97 0)
+			(at 77.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8117,7 +8137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 140.97 0)
+			(at 77.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,7 +8148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 86.36 140.97 0)
+			(at 77.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8446,7 +8466,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 93.98 140.97 0)
+		(at 77.47 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8457,7 +8477,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fead272-1e56-4797-aac2-6cb36624e0b3")
 		(property "Reference" "#PWR057"
-			(at 93.98 144.78 0)
+			(at 77.47 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +8488,7 @@
 			)
 		)
 		(property "Value" "+3V8"
-			(at 93.98 135.89 0)
+			(at 77.47 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8478,7 +8498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 140.97 0)
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8489,7 +8509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 140.97 0)
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,7 +8520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 93.98 140.97 0)
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,6 +8537,88 @@
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/e2294da6-9cb8-4158-8ba8-b9d32532c24b"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79be446a-fecf-45e3-bd9c-00856890d7a7")
+		(property "Reference" "R40"
+			(at 152.4 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k5"
+			(at 152.4 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 148.082 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97e74bf2-3fb3-49ab-9682-4ed0a771c44d")
+		)
+		(pin "1"
+			(uuid "def326dd-e918-4629-b9ab-856e53ed86e5")
+		)
+		(instances
+			(project "poc-one"
+				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/e2294da6-9cb8-4158-8ba8-b9d32532c24b"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -8631,7 +8733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8711,7 +8813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8869,7 +8971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 268.9352 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9017,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Value" "333"
+		(property "Value" "220"
 			(at 130.81 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9027,7 +9129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.81 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -9077,7 +9179,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 100.33 140.97 0)
+		(at 77.47 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9087,7 +9189,7 @@
 		(dnp no)
 		(uuid "91295c99-a4b2-448f-95a6-21d446f93c25")
 		(property "Reference" "#PWR058"
-			(at 100.33 144.78 0)
+			(at 77.47 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9200,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.711 136.5758 0)
+			(at 77.851 161.9758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9108,7 +9210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 140.97 0)
+			(at 77.47 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,7 +9221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 140.97 0)
+			(at 77.47 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9130,7 +9232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 140.97 0)
+			(at 77.47 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9183,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 90.17 64.008 90)
 			(hide yes)
 			(show_name no)
@@ -9233,7 +9335,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 105.41 140.97 180)
+		(at 93.98 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9244,7 +9346,7 @@
 		(fields_autoplaced yes)
 		(uuid "978cf5b4-6c3b-48c6-90c4-0c78cdf49ba6")
 		(property "Reference" "TP5"
-			(at 107.95 143.0019 0)
+			(at 96.52 143.0019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9254,8 +9356,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 107.95 145.5419 0)
+		(property "Value" "+1V1"
+			(at 96.52 145.5419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9265,8 +9367,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 140.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9277,7 +9379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 140.97 0)
+			(at 88.9 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9288,7 +9390,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 140.97 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9422,7 +9524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 33.02 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +9966,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 44.958 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +10175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 55.88 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10241,7 +10343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
 			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.912 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -10551,7 +10653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.798 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -10679,7 +10781,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 105.41 140.97 0)
+		(at 93.98 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10690,7 +10792,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5ca4949-c353-48f2-b6f3-f8edafaf51cb")
 		(property "Reference" "#PWR059"
-			(at 105.41 144.78 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +10803,7 @@
 			)
 		)
 		(property "Value" "+1V1"
-			(at 105.41 135.89 0)
+			(at 93.98 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10711,7 +10813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 140.97 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10722,7 +10824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 140.97 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,7 +10835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 105.41 140.97 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,7 +10967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.658 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -10915,7 +11017,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 86.36 140.97 180)
+		(at 77.47 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10926,7 +11028,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8c9fa92-db78-4b88-841e-b7701de4182d")
 		(property "Reference" "TP1"
-			(at 88.9 143.0019 0)
+			(at 80.01 141.7319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10936,8 +11038,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 88.9 145.5419 0)
+		(property "Value" "VBUS"
+			(at 80.01 144.2719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10947,8 +11049,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 81.28 140.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 72.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +11061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 140.97 0)
+			(at 72.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10970,7 +11072,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 86.36 140.97 0)
+			(at 77.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11150,7 +11252,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 80.01 0)
+		(at 149.86 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11161,7 +11263,7 @@
 		(fields_autoplaced yes)
 		(uuid "f13905d5-6892-4bfa-883f-2289a27ba6af")
 		(property "Reference" "R34"
-			(at 151.13 78.7399 0)
+			(at 152.4 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11171,8 +11273,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k49"
-			(at 151.13 81.2799 0)
+		(property "Value" "5k1"
+			(at 152.4 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11182,8 +11284,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.812 80.01 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 148.082 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11194,7 +11296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 80.01 0)
+			(at 149.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11205,7 +11307,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 80.01 0)
+			(at 149.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11232,7 +11334,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 93.98 140.97 180)
+		(at 77.47 153.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11243,7 +11345,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5b7132b-4624-4292-964d-64fe75983387")
 		(property "Reference" "TP2"
-			(at 96.52 143.0019 0)
+			(at 80.01 155.7019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11253,8 +11355,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 96.52 145.5419 0)
+		(property "Value" "+3V8 / VSYS"
+			(at 80.01 158.2419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11264,8 +11366,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 140.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 72.39 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11276,7 +11378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 140.97 0)
+			(at 72.39 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11287,7 +11389,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 93.98 140.97 0)
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
