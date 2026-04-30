@@ -130,7 +130,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.1016,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
@@ -143,7 +143,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.1,
-        "min_track_width": 0.1,
+        "min_track_width": 0.1016,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.15,
@@ -931,7 +931,7 @@
         "uuid": "760e71f2-11f5-49d0-9711-0d17141bf4d4"
       }
     ],
-    "used_designators": "J1-2,TP10-11,R41-46,C20,C35-38,Q7,U22-23,#PWR12,#PWR41-42,#PWR66-77,MK1-2",
+    "used_designators": "D17",
     "variants": []
   },
   "sheets": [

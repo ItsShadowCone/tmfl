@@ -4536,16 +4536,6 @@
 		)
 		(uuid "479b6962-76e1-4a1f-ab25-13578eff7c96")
 	)
-	(text "todo: push button footprint\nC6467298"
-		(exclude_from_sim no)
-		(at 151.384 194.056 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7dce682e-f41d-40f9-8355-a75e583c782b")
-	)
 	(text "WISHLIST:\n- NFC\n- that badge connector -> doesn't make sense, too large for this board\n- sub ghz receiver"
 		(exclude_from_sim no)
 		(at 24.13 30.226 0)
@@ -11927,7 +11917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "TFPC:B3U-1100PM"
 			(at 147.32 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -12056,9 +12046,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "478cee21-5254-47ed-961e-b361e5a6a46f")
@@ -13775,9 +13765,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa56af5e-c836-4f59-a741-6ec9e85b3ba5")
@@ -14177,7 +14167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "TFPC:B3U-1100PM"
 			(at 127 133.35 0)
 			(hide yes)
 			(show_name no)

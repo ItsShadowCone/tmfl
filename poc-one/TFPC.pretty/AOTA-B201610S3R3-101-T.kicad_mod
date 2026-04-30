@@ -9,7 +9,7 @@
 		(at 0 -1.17 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5337fdf9-f6f2-4b99-8270-28c97bf14ba9")
+		(uuid "aac846fb-9bbb-454b-8f48-a5a94b390e00")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "AOTA-B201610S3R3-101-T"
 		(at 0 1.17 0)
 		(layer "F.Fab")
-		(uuid "b6824907-3a63-45b9-a7e8-7a96f5f0bca3")
+		(uuid "ae0d7b08-bebd-4ba2-a993-3797c255cad2")
 		(effects
 			(font
 				(size 1 1)
@@ -28,12 +28,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "file://datasheets/AOTA-B201610S3R3-101-T.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7cd5f11a-2cb4-4699-b2f6-f7f55700b41d")
+		(uuid "12faf53f-90b1-49fe-afd1-dcaf724aab04")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ed37f1f6-12f8-4f85-a980-e55264769928")
+		(uuid "29647d4b-8c05-4642-8e0a-1bd5d653f078")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,14 +59,14 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center -1.8 -1.1)
-		(end -1.9 -1.1)
+		(end -1.7 -1.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "5c78871e-074d-4807-8a4f-4c007f25907f")
+		(uuid "a573fde6-ca8f-4240-88e3-1bf091010e74")
 	)
 	(fp_line
 		(start 0.9 0.4)
@@ -76,45 +76,47 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "b5fadcb5-6070-41be-b383-2c12195a860d")
+		(uuid "44ca73ab-4122-47e4-9981-9449570aa625")
 	)
-	(fp_rect
-		(start -1.6 -0.9)
-		(end 1.6 0.9)
+	(fp_poly
+		(pts
+			(xy -1.501062 -1.060143) (xy 1.75 -1.05) (xy 1.75 1.05) (xy -1.75 1.05) (xy -1.75 -0.8) (xy -2.1 -0.8)
+			(xy -2.1 -1.4) (xy -1.500002 -1.400001)
+		)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4c9d0b4c-7231-411b-a0b3-9b5eb9d9237d")
+		(uuid "58d838b7-bae7-408c-8372-1795d03cea0a")
 	)
 	(fp_rect
-		(start -1.5 -0.8)
-		(end 1.5 0.8)
+		(start -1 -0.8)
+		(end 1 0.8)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "a2ce1b62-b837-4ea7-8668-58faf1268f60")
+		(uuid "b936804c-0950-41d9-9979-51d005af0a4d")
 	)
 	(fp_circle
-		(center -1 0)
-		(end -1 -0.1)
+		(center -0.65 -0.5)
+		(end -0.65 -0.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "148b454d-906f-47fd-9498-7125d9c41f01")
+		(uuid "118fc6c8-368b-4326-a23d-2720a7192017")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "d9b4903f-3568-4e70-bf33-fb772cbb0fb7")
+		(uuid "faf8094f-71a3-4e00-b369-3e335572655e")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -127,14 +129,14 @@
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "9853891e-e36e-4e52-a470-a4df36438b2b")
+		(uuid "5da008f0-4f91-46fe-8952-0cb689b38c1f")
 	)
 	(pad "2" smd roundrect
 		(at 1 0 180)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "8e467bc2-db93-4643-85cf-3175714c91fa")
+		(uuid "5b500e86-db38-4cfe-96a7-f08f64d4bc49")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/L_0402.step"
