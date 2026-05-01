@@ -9,7 +9,7 @@
 		(at 0 -1.17 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "aac846fb-9bbb-454b-8f48-a5a94b390e00")
+		(uuid "cb9cd243-f038-4bcb-a9e8-90b892c10468")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "AOTA-B201610S3R3-101-T"
 		(at 0 1.17 0)
 		(layer "F.Fab")
-		(uuid "ae0d7b08-bebd-4ba2-a993-3797c255cad2")
+		(uuid "79fc6d0d-4e1a-4729-a410-85f57cb8e3ef")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "12faf53f-90b1-49fe-afd1-dcaf724aab04")
+		(uuid "77ddea5b-71da-4476-8142-eff099ea3e11")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "29647d4b-8c05-4642-8e0a-1bd5d653f078")
+		(uuid "ecd00788-6019-40ee-82f6-de4b87eb9341")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,34 +54,23 @@
 			)
 		)
 	)
-	(solder_mask_margin 0.038)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
-		(center -1.8 -1.1)
-		(end -1.7 -1.1)
+		(center -1.05 -1.05)
+		(end -0.95 -1.05)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "a573fde6-ca8f-4240-88e3-1bf091010e74")
-	)
-	(fp_line
-		(start 0.9 0.4)
-		(end 0.9 -0.4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "44ca73ab-4122-47e4-9981-9449570aa625")
+		(uuid "289be0dc-c912-4c4c-b02c-e8a3c160c199")
 	)
 	(fp_poly
 		(pts
-			(xy -1.501062 -1.060143) (xy 1.75 -1.05) (xy 1.75 1.05) (xy -1.75 1.05) (xy -1.75 -0.8) (xy -2.1 -0.8)
-			(xy -2.1 -1.4) (xy -1.500002 -1.400001)
+			(xy -0.750618 -1.007802) (xy 1.700004 -1.000155) (xy 1.699996 1) (xy -1.7 1) (xy -1.7 -1) (xy -1.35 -1)
+			(xy -1.35 -1.350002) (xy -0.749543 -1.350004)
 		)
 		(stroke
 			(width 0.05)
@@ -89,7 +78,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "58d838b7-bae7-408c-8372-1795d03cea0a")
+		(uuid "372077f6-e5ed-4fcc-ad63-78460cfd1ee8")
 	)
 	(fp_rect
 		(start -1 -0.8)
@@ -100,7 +89,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b936804c-0950-41d9-9979-51d005af0a4d")
+		(uuid "e5ea4d5d-f575-45f7-a2a6-2a355a31c470")
 	)
 	(fp_circle
 		(center -0.65 -0.5)
@@ -111,12 +100,12 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "118fc6c8-368b-4326-a23d-2720a7192017")
+		(uuid "10a8b4ed-143c-4b02-ab6b-1f1ce27e14de")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "faf8094f-71a3-4e00-b369-3e335572655e")
+		(uuid "3db4e417-231e-4abd-ae9d-234df5a59f31")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -129,14 +118,14 @@
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "5da008f0-4f91-46fe-8952-0cb689b38c1f")
+		(uuid "6821b9fb-34fd-4763-8a7a-d486baa8e74a")
 	)
 	(pad "2" smd roundrect
 		(at 1 0 180)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "5b500e86-db38-4cfe-96a7-f08f64d4bc49")
+		(uuid "cc7a6e67-e04e-48d8-bc40-9e8c178e8303")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/L_0402.step"

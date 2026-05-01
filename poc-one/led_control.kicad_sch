@@ -5609,7 +5609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a59632a-92e9-4b0b-8bb4-98cf9a884787")
-		(property "Reference" "R22"
+		(property "Reference" "R40"
 			(at 313.69 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,6 +5662,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 313.69 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e9cfb49-8179-4037-a277-24bde30871c7")
 		)
@@ -5671,7 +5682,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R22")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c4567a6-f781-4a5c-8968-b317a57eb0bd")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR049"
 			(at 106.68 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5748,7 +5759,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR07")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5765,7 +5776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e1e8924-11e9-44a9-9b9b-5ebafdb77d65")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR057"
 			(at 118.11 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +5836,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR027")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5898,6 +5909,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 182.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c36104d6-617b-42ff-bf6f-87003c3149b8")
 		)
@@ -5936,7 +5958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10k"
 			(at 106.68 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,6 +5992,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Memory Size" ""
 			(at 104.14 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6062,6 +6095,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 198.12 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b25ea49-3d82-4511-8a13-7ec36f271274")
 		)
@@ -6089,7 +6133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bbefd62-4e18-4a32-b20b-f73ea26fb96c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR064"
 			(at 355.6 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6149,7 +6193,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR036")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d08ea0a-f5e4-4da3-b482-6ce9fc1caa6d")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 342.9 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,6 +6442,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 342.9 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "327cb0f2-f4dd-4633-845b-2bf62d14e57c")
 		)
@@ -6449,7 +6504,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -6461,13 +6516,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2d4d02f7-0e4e-4f30-b249-fbb4fde23c6c")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 342.9 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,6 +6753,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 342.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "32d8604d-bd05-4054-9183-412e644fc929")
 		)
@@ -6749,7 +6815,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6767,7 +6833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3177aec8-89c4-4868-a4f0-c882fa9db708")
-		(property "Reference" "R15"
+		(property "Reference" "R34"
 			(at 297.18 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,6 +6886,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 297.18 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cf3e42a-31ce-4a46-ab23-9864d17b8c3b")
 		)
@@ -6829,7 +6906,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R15")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -6841,13 +6918,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "33e6b5b2-f598-4d96-ab87-339adfe2fbee")
-		(property "Reference" "U14"
+		(property "Reference" "U15"
 			(at 342.9 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7078,6 +7155,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 342.9 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "a74a2c4b-7eae-443a-85fb-5893ffdb0a66")
 		)
@@ -7129,7 +7217,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U14")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -7146,7 +7234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34eb6ec2-5cf7-4ee4-b0c9-cd53052ba97c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR058"
 			(at 148.59 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7206,7 +7294,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR01")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7224,7 +7312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37d99a7a-bf71-452b-806a-361baa121b8c")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 175.26 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -7284,7 +7372,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR061")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7301,7 +7389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ad6e9bc-12e7-4d1d-9ae9-486d72a56e69")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR055"
 			(at 118.11 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -7361,7 +7449,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR026")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -7379,7 +7467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1ba9de-6686-44f4-a4f6-2964f376ea19")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 171.45 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7432,6 +7520,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 171.45 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f31ae1d-5fb6-4609-8151-cd8b8d2b15d2")
 		)
@@ -7441,7 +7540,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7458,7 +7557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41eb809c-1201-42e9-ab79-6ca321635efd")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR051"
 			(at 107.95 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -7518,7 +7617,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR054")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7536,7 +7635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b7824b-ca47-4b6e-803a-a46bc039e4be")
-		(property "Reference" "U13"
+		(property "Reference" "U14"
 			(at 342.9 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,6 +7866,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 342.9 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "1e685163-43d9-40e8-90e5-a99989c2929b")
 		)
@@ -7818,7 +7928,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U13")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -7836,7 +7946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "462fcc08-7b42-4b95-abbc-e777a1ae64c5")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 190.5 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8100,6 +8210,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 185.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c74e9185-f35e-4b22-bb85-ebf79db3fcf3")
 		)
@@ -8112,7 +8233,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8130,7 +8251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475bfb42-6481-46eb-af10-e735e2f6120c")
-		(property "Reference" "Q2"
+		(property "Reference" "Q5"
 			(at 218.44 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8394,6 +8515,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 213.36 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c837330-675a-452d-89e6-f405cf8be188")
 		)
@@ -8406,7 +8538,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "Q2")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -8479,6 +8611,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 213.36 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "879b21e1-a549-4f72-8c46-3741a8df7b68")
 		)
@@ -8506,7 +8649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cedac57-fb64-4a5c-9966-a032cfad50a4")
-		(property "Reference" "R19"
+		(property "Reference" "R38"
 			(at 307.34 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8559,6 +8702,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 307.34 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8b7df07-91eb-4874-8f48-d25e8b7c37fc")
 		)
@@ -8568,7 +8722,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R19")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8586,7 +8740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "586a13c8-3aa5-423a-b4a1-f429f1a9fb46")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR065"
 			(at 355.6 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8646,7 +8800,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR037")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8658,13 +8812,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5c06f966-3c52-46f9-bd79-898d64b8bf71")
-		(property "Reference" "U19"
+		(property "Reference" "U20"
 			(at 394.97 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8895,6 +9049,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 394.97 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "7daf6e18-e0d1-4b98-a396-6216d38f17a3")
 		)
@@ -8946,7 +9111,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U19")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -8964,7 +9129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ec7acb-f1a4-4923-a9b1-136201ca2508")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR054"
 			(at 118.11 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -9024,7 +9189,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR063")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9036,13 +9201,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "651a3497-1772-4020-93b2-5db6db232464")
-		(property "Reference" "U15"
+		(property "Reference" "U16"
 			(at 394.97 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9273,6 +9438,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 394.97 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "afbf0884-c0d1-4394-96c9-4689fdef16ee")
 		)
@@ -9324,7 +9500,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U15")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -9342,7 +9518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "676ff883-9eb6-46a7-b699-cccdd3d166c4")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 166.37 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9395,6 +9571,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 166.37 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7543e26-2c46-4eef-bc43-b2966e41a801")
 		)
@@ -9404,7 +9591,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9467,6 +9654,17 @@
 			)
 		)
 		(property "Description" "C22383791"
+			(at 220.98 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Memory Size" ""
 			(at 220.98 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9557,6 +9755,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 157.48 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3363584f-66d4-4730-854b-a80acfdaaf18")
 		)
@@ -9578,13 +9787,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6bfecb67-9504-4ab9-9c0b-2d0fbc465290")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 120.2533 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9650,6 +9859,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 118.11 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ee6ea4f5-6ff6-432c-b4f6-c2da64b6642e")
 		)
@@ -9701,7 +9921,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -9719,7 +9939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf646c9-da89-4161-8a1b-e582597c12d8")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR044"
 			(at 44.45 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9779,7 +9999,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR055")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9797,7 +10017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e011d2e-3716-4393-8edb-c3e225d89140")
-		(property "Reference" "R13"
+		(property "Reference" "R33"
 			(at 293.37 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,6 +10070,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 293.37 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a345416-5f15-461f-beaf-95273bebaa57")
 		)
@@ -9859,7 +10090,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R13")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9877,7 +10108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7085a365-4ac1-48be-8788-29be9ac6a1e9")
-		(property "Reference" "C24"
+		(property "Reference" "C27"
 			(at 179.07 173.1009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,6 +10163,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 175.26 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07b442bc-50c8-4028-ab42-cc6d7781c50f")
 		)
@@ -9941,7 +10183,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "C24")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9953,13 +10195,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74215ccb-1770-4030-b217-7d8ba4b1f9ef")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 120.2533 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10025,6 +10267,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 118.11 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "77d0266f-9a2a-4006-9757-108eb99bbf02")
 		)
@@ -10076,7 +10329,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -10094,7 +10347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76608a1a-e80f-4383-be16-31d2d4e22fbb")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR056"
 			(at 118.11 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -10154,7 +10407,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR064")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10166,13 +10419,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d9d1850-36f4-4a62-a348-76770bfa1e4c")
-		(property "Reference" "U16"
+		(property "Reference" "U17"
 			(at 394.97 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10403,6 +10656,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 394.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "d4453339-309a-403c-a382-e16f32c62176")
 		)
@@ -10454,7 +10718,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U16")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -10527,6 +10791,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 190.5 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "71eae560-cf6d-44da-8aae-0a3f198bc54f")
 		)
@@ -10553,7 +10828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93e2f6b4-ba0b-4917-88c4-cf4b6e0da343")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR047"
 			(at 54.61 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -10613,7 +10888,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR028")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10625,13 +10900,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "986d91d8-66ac-48d4-bb48-2b91cb7ff879")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 342.9 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10862,6 +11137,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 342.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "e8570683-0a2c-4adb-bf97-ac645b8d7909")
 		)
@@ -10913,7 +11199,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -10931,7 +11217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d352b2b-a5ed-42f8-b3f2-89915b6be116")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 279.4 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10984,6 +11270,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 279.4 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ac688bc-a981-4116-add2-e56a89d08d66")
 		)
@@ -10993,7 +11290,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11066,6 +11363,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 205.74 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "55af6f6d-d4de-4d49-8cc5-a841dfbf773a")
 		)
@@ -11093,7 +11401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef89c55-6db0-47e9-95df-d5dbd2148e3a")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR063"
 			(at 354.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11153,7 +11461,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR035")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -11171,7 +11479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a211368e-8457-420a-b41d-43dd29c988f1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR052"
 			(at 118.11 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11231,7 +11539,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR031")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11249,7 +11557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bf655e-10e9-44c0-a810-66626bbadd97")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR048"
 			(at 104.14 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11309,7 +11617,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR03")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11327,7 +11635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b83a4a0b-b7e4-42fc-ac93-7d9c4a2cbe13")
-		(property "Reference" "R21"
+		(property "Reference" "R39"
 			(at 311.15 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,6 +11688,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 311.15 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4338a2fc-a103-4043-be6f-fe2bd2c9ed94")
 		)
@@ -11389,7 +11708,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R21")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -11407,7 +11726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c20fd2bb-f58a-4e14-a77f-3e21a4910788")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 342.9 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11638,6 +11957,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 342.9 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "6f5a407a-4bd0-4d38-bdec-7f4e727b722c")
 		)
@@ -11689,7 +12019,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -11707,7 +12037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3e7347b-20d6-4153-9683-95c4034ecd57")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR060"
 			(at 326.39 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11767,7 +12097,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR032")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11779,13 +12109,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c83c53f1-c246-4ef3-9ea0-50974d783e25")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 56.7533 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11851,6 +12181,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 54.61 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "9815865b-a213-4376-9bbc-bd7fc118647c")
 		)
@@ -11902,7 +12243,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11919,7 +12260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9a6910e-5dd3-481d-9473-87d00c231b3a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR045"
 			(at 44.45 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11979,7 +12320,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR052")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11997,7 +12338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb2401de-f37e-4e12-87ae-e932181154f8")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR046"
 			(at 54.61 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -12057,7 +12398,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR062")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12069,13 +12410,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc58048e-3323-477f-9185-64a2a1d28a41")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 168.91 163.0679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12130,13 +12471,24 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 166.37 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55df6310-fa7d-4cfa-96ec-9c29d87df7d8")
 		)
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -12154,7 +12506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc9eebe0-e601-4d45-aec8-11f809a63656")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 292.1 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12207,6 +12559,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 292.1 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70f23fc8-1745-4790-b011-902f9919b660")
 		)
@@ -12216,7 +12579,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -12233,7 +12596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cff8c21d-f191-414d-a838-4376b72569b9")
-		(property "Reference" "R39"
+		(property "Reference" "R25"
 			(at 160.02 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12286,6 +12649,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 160.02 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36fffebc-5ddb-4f14-a064-a7454786ac82")
 		)
@@ -12295,7 +12669,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R39")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12313,7 +12687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0c1c075-ade2-40e0-a38b-b8b1dbb06249")
-		(property "Reference" "R18"
+		(property "Reference" "R37"
 			(at 304.8 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12366,6 +12740,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 304.8 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f443a15f-d0da-43a3-be31-1a0a46da145a")
 		)
@@ -12375,7 +12760,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R18")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -12387,13 +12772,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d18c438f-51f3-484e-94e7-14bcad34188a")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 120.2533 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12459,6 +12844,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 118.11 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "cc423eb5-12da-4f5e-885e-4358d99fdb3a")
 		)
@@ -12510,7 +12906,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12528,7 +12924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d343ba3a-c922-408d-9662-dda6a2b66254")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 179.07 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12581,6 +12977,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 179.07 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "056644ec-8c44-471c-904b-6b3d3e1ffbf5")
 		)
@@ -12590,7 +12997,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12608,7 +13015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4043ff9-5fe3-4052-89c3-d5ebc97bcf8b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR061"
 			(at 326.39 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -12668,7 +13075,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR033")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -12686,7 +13093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9ce0f98-1315-43a2-a0c9-b1ee7ceefc30")
-		(property "Reference" "R12"
+		(property "Reference" "R31"
 			(at 290.83 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12739,6 +13146,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 290.83 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e155fd4-0abc-4c28-b720-eccdb011a09a")
 		)
@@ -12748,7 +13166,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R12")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -12766,7 +13184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da652b34-97e5-4ec8-983e-f21bd0fa892f")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 120.2533 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12832,6 +13250,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 118.11 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "b3b76d30-01a9-496e-8eeb-722d20c27c35")
 		)
@@ -12883,7 +13312,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12895,13 +13324,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc047f48-9e00-42aa-b6a7-84d350a3f7fb")
-		(property "Reference" "U17"
+		(property "Reference" "U18"
 			(at 394.97 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13132,6 +13561,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 394.97 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "f580475b-41ef-4cf4-a592-e1df88cd218b")
 		)
@@ -13183,7 +13623,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U17")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -13201,7 +13641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddbcb3b0-14f5-40a9-b05f-52935748b364")
-		(property "Reference" "R16"
+		(property "Reference" "R36"
 			(at 299.72 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13254,6 +13694,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 299.72 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1f33f0f-48c2-439d-a1b8-8acd43bd0d3c")
 		)
@@ -13263,7 +13714,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R16")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -13280,7 +13731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df84e677-ec2a-45df-b837-6bb952e0104e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 107.95 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -13340,7 +13791,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13413,6 +13864,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 228.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a6ee14c3-0770-4c81-9643-95611e748dc9")
 		)
@@ -13440,7 +13902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea5c5607-51f5-475e-8604-fd9be3a9fed1")
-		(property "Reference" "Q1"
+		(property "Reference" "Q4"
 			(at 204.47 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13704,6 +14166,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 199.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd128e2e-8208-4392-bd4d-215f2ee7fc43")
 		)
@@ -13716,7 +14189,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "Q1")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -13728,13 +14201,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea90afa5-e2a9-4bec-9771-94dab577166b")
-		(property "Reference" "U18"
+		(property "Reference" "U19"
 			(at 394.97 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13965,6 +14438,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 394.97 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "1d17df93-76f8-4ce6-806a-c625c6cbf035")
 		)
@@ -14016,7 +14500,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U18")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -14034,7 +14518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed466d7c-4618-48ab-823e-3f09b2fe6d79")
-		(property "Reference" "Q3"
+		(property "Reference" "Q6"
 			(at 232.41 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14298,6 +14782,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 227.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3bbea380-fe97-447d-b071-15e70b4317fe")
 		)
@@ -14310,7 +14805,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "Q3")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -14328,7 +14823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed93d32e-c2e4-475e-92a7-d4138a211cc2")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR062"
 			(at 326.39 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14388,7 +14883,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR034")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14405,7 +14900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efab7d4e-55be-4393-9051-2275ebba3980")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR053"
 			(at 118.11 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -14465,7 +14960,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "#PWR011")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -14483,7 +14978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a2783d-868d-4a5e-9767-0f2a3d0b57ac")
-		(property "Reference" "R31"
+		(property "Reference" "R35"
 			(at 299.72 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14536,6 +15031,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 299.72 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "829b7db4-5647-4f59-9f2b-3ba8eabbaa3a")
 		)
@@ -14545,7 +15051,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R31")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -14563,7 +15069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f25b232f-10a8-425a-8940-234f6ab9ab77")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 285.75 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14616,6 +15122,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 285.75 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae51e5e1-f02a-45dd-9956-3a8b29cde62e")
 		)
@@ -14625,7 +15142,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -14637,12 +15154,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c27d91-1f69-44bf-bbfd-4caa5537266e")
-		(property "Reference" "TP9"
+		(property "Reference" "TP8"
 			(at 154.94 164.3379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14697,13 +15214,24 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 152.4 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e128294e-71be-4283-a192-a37df14850fb")
 		)
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "TP9")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14715,13 +15243,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f953a62c-44b2-4baf-bb2f-eb91c95e098d")
-		(property "Reference" "U20"
+		(property "Reference" "U21"
 			(at 394.97 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14952,6 +15480,17 @@
 				)
 			)
 		)
+		(property "Memory Size" ""
+			(at 394.97 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "f995db67-ae59-4f59-a0b0-2cd79a069510")
 		)
@@ -15003,7 +15542,7 @@
 		(instances
 			(project "poc-one"
 				(path "/760e71f2-11f5-49d0-9711-0d17141bf4d4/a39f7341-88af-46ef-8df4-36c1d809fea0"
-					(reference "U20")
+					(reference "U21")
 					(unit 1)
 				)
 			)
