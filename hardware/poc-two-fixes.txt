@@ -1,0 +1,50 @@
+# fixes from poc-one to poc-two
+
+Tested:
+- RP235x w/ USB works
+- LED array works (with fixes)
+- microphone is noisy
+- light sensor is bad
+- physical assembly shits
+- battery charge / discharge / polarity protection
+- touch buttons -> don't work
+- bus voltages
+
+Not tested:
+- over/undervoltage mit einem labornetzteil
+- battery charger under active control
+- microphone
+- light sensor
+
+## Fixes
+- the decoder E0, E1, E2 need to be inverted. they also all need to be driven the same, as the AND of all 3 gets output.
+- R23 can be removed (duh)
+- the battery status LED needs to be fixed or manually programmed. can't have rapid blinkenlights when the thing is supposed to be off
+
+## TODO
+- capacitive buttons. maybe push buttons but with creative coverlay placement.
+- yolo the light sensor
+- mic???
+- NFC / subghz
+- fix BOM
+- order in FR4.
+- wire dip switch to soft-off
+- buzzer
+- rewire the rgb array
+- drop int line of battery
+
+BOM:
+- reverse polarity protection -> SI2302 auch SOT-23 aber deutlich weniger loss
+- LDO -> H7651-33PR SOT-89-3
+- indicator LEDs
+- bootsel via master chip
+- reset switch via master chip
+- sub ghz recv CMT2219A-EQR -- packet mode, 32 bytes per frame (circa 1 byte per table) + up to 8 byte overhead, 30 frames per second burst at start of second --> 96000 ksps. SPI
+- nfc transceiver -> ST25R3916B-AQWT its the same thing as the flipper. SPI interface
+- ceramic caps -> 0201?
+- smd wiederstände -> 01005 except for LED & led PNPs
+- mic -> 5$ / light sensor ?
+- buzzer
+- shift registers smaller package -> 74HC595BQ,115 DHVQFN-16-EP(2.5x3.5)
+- led PNPs / better gain / many in one package -> BC857BS gain 125-630 2-in-1 SOT363
+- decoder smaller package -> 74HC138LQ/TR QFN-16 (3x3)
