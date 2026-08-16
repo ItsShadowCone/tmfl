@@ -1,0 +1,142 @@
+(footprint "B3U-1100PM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Datasheet" "file://datasheets/C6467298.pdf"
+		(at 0 -0.775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cfd8540-1405-4f7b-890e-65bb2c7a224d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70ece6bf-0097-41e7-80b5-3bfed6c77d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B3U-1100PM"
+		(at 0 -2.775 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06f86ba4-cbe6-4a53-aa9e-4f75062d25cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -2.875 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3908bdea-32a4-4d53-b04b-1f1ee93a6f31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 2.25 0.525) (xy 0.3 0.525) (xy 0.3 1.175) (xy -0.3 1.175) (xy -0.3 0.525) (xy -2.25 0.525) (xy -2.25 -2.075)
+			(xy 2.25 -2.075)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ca207733-3920-476e-8a59-90f2afb2cf86")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 0.475) (xy -1.5 0.475) (xy -1.5 -0.075) (xy -2 -0.075) (xy -2 -1.475) (xy -1.5 -1.475) (xy -1.5 -2.025)
+			(xy 1.5 -2.025) (xy 1.5 -1.475) (xy 2 -1.475) (xy 2 -0.075) (xy 1.5 -0.075)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fd24d1bb-756f-41bd-b1c8-d5d30397d6c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.775 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd66d670-040c-498a-a798-86319ce8d9fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.7 -0.775)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "840965dd-8c19-4d4b-a281-076c845d4336")
+	)
+	(pad "2" smd roundrect
+		(at -1.7 -0.775)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8b3dc92b-c4f8-486d-b926-de2c9da085ff")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "f5c4df49-b631-4c64-a164-beaaf55bfbaa")
+		(name "Keep Out / Potential GND Pin")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0.35 1.225) (xy 0.35 0.475) (xy -0.35 0.475) (xy -0.35 1.225)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

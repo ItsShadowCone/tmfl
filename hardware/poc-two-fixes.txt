@@ -17,9 +17,10 @@ Not tested:
 - light sensor
 
 ## Fixes
-- the decoder E0, E1, E2 need to be inverted. they also all need to be driven the same, as the AND of all 3 gets output.
-- R23 can be removed (duh)
+- DONE the decoder E0, E1, E2 need to be inverted. they also all need to be driven the same, as the AND of all 3 gets output.
+- DONE R23 can be removed (duh)
 - the battery status LED needs to be fixed or manually programmed. can't have rapid blinkenlights when the thing is supposed to be off
+- DONE removed display sense
 
 ## TODO
 - capacitive buttons. maybe push buttons but with creative coverlay placement.
@@ -28,23 +29,58 @@ Not tested:
 - NFC / subghz
 - fix BOM
 - order in FR4.
-- wire dip switch to soft-off
-- buzzer
-- rewire the rgb array
-- drop int line of battery
+- DONE wire dip switch to soft-off
+- DONE buzzer
+- DONE rewire the rgb array
+- DONE drop int line of battery
 
 BOM:
+
+- DONE LDO -> H7651-33PR SOT-89-3. not enough of this. H7650-33PR equivalent with 750mA
+- DONE indicator LEDs
+s
+- YOLOed sub ghz recv CMT2219A-EQR -- packet mode, 32 bytes per frame (circa 1 byte per table) + up to 8 byte overhead, 30 frames per second burst at start of second --> 96000 ksps. SPI
+- YOLOed nfc transceiver -> ST25R3916B-AQWT its the same thing as the flipper. SPI interface. 
+- YOLOed NFC simulation
+- DONE buzzer
+
+FOOTPRINTS TODO:
+- led PNPs / better gain / many in one package -> BC857BS gain 125-630 2-in-1 SOT363 (if i'm reading this correctly its gain ~300 at ambient temp, slightly higher if it warms up)
 - reverse polarity protection -> SI2302 auch SOT-23 aber deutlich weniger loss
-- LDO -> H7651-33PR SOT-89-3
-- indicator LEDs
-- bootsel via master chip
-- reset switch via master chip
-- sub ghz recv CMT2219A-EQR -- packet mode, 32 bytes per frame (circa 1 byte per table) + up to 8 byte overhead, 30 frames per second burst at start of second --> 96000 ksps. SPI
-- nfc transceiver -> ST25R3916B-AQWT its the same thing as the flipper. SPI interface
+- shift registers smaller package -> 74HC595BQ,115 DHVQFN-16-EP(2.5x3.5)
+- decoder smaller package -> 74HC138LQ/TR QFN-16 (3x3)
 - ceramic caps -> 0201?
 - smd wiederstände -> 01005 except for LED & led PNPs
-- mic -> 5$ / light sensor ?
-- buzzer
-- shift registers smaller package -> 74HC595BQ,115 DHVQFN-16-EP(2.5x3.5)
-- led PNPs / better gain / many in one package -> BC857BS gain 125-630 2-in-1 SOT363
-- decoder smaller package -> 74HC138LQ/TR QFN-16 (3x3)
+
+
+NFC
+- It requires decoupling capacitors (2.2µFNOM for Regulator AM and 22nFNOM for AWS AM) at VDD_AM pin. Additionally, 100pF to 2.2nF can be used to improve RF decoupling. -> no AWS.
+- can disable VDD_D and short VDD_A / VDD_D if i want (vspd_off in IO reg 2)
+
+
+TODO:
+ - capacitative pads
+ -> footprints
+
+   -> double check important passives
+   -> other passives?
+   
+   antennas
+   buzzer
+   3.9nH C14033 0402
+   
+   270nH 500mΩ C281081 0805 (up to 250mA should be fine)
+   buttons C2837531 smd-4p
+ -> routing
+ 
+ DONE debug things:
+   -> 2nd usb
+   -> additional buttons for reset / programming
+   
+   
+TODO routing:
+- rf isolation vias
+- swap display auf unten nach oben, links nach rechts
+- swap every second column
+- capacitive pads
+- panelization
