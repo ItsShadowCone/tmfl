@@ -1,0 +1,4654 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.1,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": true,
+          "text_position": 0,
+          "units_format": 0
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "warning",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "warning",
+        "starved_thermal": "warning",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.1016,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.3,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.15,
+        "min_hole_to_hole": 0.15,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.3,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.1016,
+        0.15,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "panel.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Absolute Minimum",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Display Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Display_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Board_0-Absolute Minimum",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Board_0-Display Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Board_0-Display_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Board_1-Absolute Minimum",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Board_1-Display Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1016,
+        "name": "Board_1-Display_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": {},
+    "netclass_patterns": [
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-RFO2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C615-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO1-Pad78)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U414-~{Y2})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U401-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q401A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y6})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J202-SBU2-PadB8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C618-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-RUN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-XOUT)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B25"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J301-CC2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+27"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R31"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y5})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/D-CS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R11"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO31-Pad39)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y0})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G20"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J201-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y6})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-QSPI_SCLK-Pad71)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y7})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G23"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B24"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/SUBG-CS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U602-VCOP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-C_P_5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B27"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G31"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO43_ADC3-Pad54)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J102-Pin_5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U301-~{CE})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO11-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R19"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B11"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J101-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-XIN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/D-COPI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-XTI)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_11"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-GPIO42_ADC2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U301-D--Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J202-CC2-PadB5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(AE602-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO45_ADC5-Pad56)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_8"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y1})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y3})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G8"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO12-Pad11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO22-Pad22)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q405B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y1})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U601-IRQ-Pad27)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-GPIO8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U301-D+-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q409A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO42_ADC2-Pad53)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO19-Pad19)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/SUBG-SCK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+22"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y0})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-C_P_4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-GPIO19)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-VDD_DR)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Battery/USB_D-"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO38-Pad47)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q414A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-XOUT)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q416B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q410B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-VREG_LX)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+13"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-QSPI_SCLK-Pad71)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y0})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/RESET"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q413B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J202-VBUS-PadA9B4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+28"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R25"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+30"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+17"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y7})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U403-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q413A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO3-Pad80)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(BT301--)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/BOOTSEL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U409-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U412-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U602-GPO2-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO17-Pad17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C622-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q406A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-TAD2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U414-~{Y3})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B31"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B19"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO23-Pad23)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q301A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/D-RX"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J101-Pin_2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R30"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-QSPI_SD1-Pad74)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+11"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-VDD_A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO14-Pad13)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Battery/SOFT-OFF"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q301B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-RFO1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO46_ADC6-Pad57)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B13"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G24"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y7})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VBUS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO37-Pad46)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R8"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-GPIO41_ADC1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R15"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R14"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-RFI2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/NFC-SCL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q404A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO18-Pad18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B8"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO16-Pad16)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U404-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U414-~{Y6}-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/D-CIPO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-VDD_AM)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-C_P_3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G15"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q401B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R107-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y7})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q402B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q408A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q407A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-USB_DP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q412A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R27"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(AE601-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y1})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U301-STAT-Pad4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/SUBG-SDA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-C_P_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J202-CC1-PadA5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO5-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO21-Pad21)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-VREG_LX)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y0})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R29"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U301-ILIM)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G26"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-C_P_6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-XTO)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U601-EXT_LM-Pad17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-USB_DM)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U601-MOSI-Pad31)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO13-Pad12)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U301-BTST)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{E0})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-QSPI_SD0-Pad72)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B23"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y5})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+14"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J102-Pin_6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U414-~{Y5}-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/SUBG-FCS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y1})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/D-TX"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+18"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y4})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U414-~{Y7}-Pad7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q409B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO39-Pad48)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y0})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q411B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C620-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+19"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J301-SBU2-PadB8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G19"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C304-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R104-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q406B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U301-TS1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G18"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R18"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO36-Pad45)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+23"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U601-MCU_CLK-Pad28)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U301-PMID-Pad23)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R206-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U602-XIN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-~{OE}"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G16"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y5})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(BT301-+)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO26-Pad27)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+8"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C616-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+24"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B18"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y4})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q415B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y2})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-QSPI_SD2-Pad73)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B21"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO15-Pad14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U414-~{Y4})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+25"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J202-SBU1-PadA8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G30"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO41_ADC1-Pad52)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO23-Pad23)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G10"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J301-CC1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J202-D+-PadA6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO32-Pad40)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R20"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y2})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+29"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_10"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y1})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-QSPI_SD0-Pad72)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO27-Pad28)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(AE601-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J102-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y5})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO20-Pad20)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U602-VCON)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO2-Pad79)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Battery/USB_D+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C118-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO10-Pad8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U405-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q414B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y5})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U416-~{Y6})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U410-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J202-VBUS-PadA9B4)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q301A-C1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO0-Pad77)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U602-GPO3-Pad6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Battery/SDA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q405A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R207-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B22"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/NFC-SDA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO4-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J201-Pin_2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U406-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G27"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+15"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R10"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R24"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q412B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-USB_DM)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q403B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO30-Pad38)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R21"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R23"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B10"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-VREG_FB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-CLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO29-Pad37)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U601-BSS-Pad29)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(BZ101-+)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-VREG_AVDD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U407-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO47_ADC7-Pad58)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO15-Pad14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q407B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+21"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B28"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G21"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R26"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO44_ADC4-Pad55)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y2})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+20"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R304-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-STOP"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y3})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q201-E)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-QSPI_SS)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G29"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U301-INT-Pad7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q415A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-TAD1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U408-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-C_P_2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-VREG_FB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y3})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R16"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R13"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q416A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y3})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y2})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q408B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B16"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-QSPI_SD3-Pad70)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U403-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-AGDC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U411-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-QSPI_SD2-Pad73)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+16"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO9-Pad7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U408-QA)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R22"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y6})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-USB_DP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C308-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+26"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-QSPI_SD3-Pad70)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U406-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U414-~{Y1})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U602-XOUT)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y4})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q411A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+10"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-VDD_D)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q403A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U418-~{Y2})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G14"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Battery/SCL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q410A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B17"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B26"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U411-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y4})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C621-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y6})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U601-RFI1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J301-SBU1-PadA8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G28"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U201-XIN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C218-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/RF/AAT_A"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U402-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/RF/AAT_B"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+31"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U404-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R17"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-GPIO40_ADC0)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B29"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-GPIO28-Pad36)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R28"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U602-GPO1-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/D-SCK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U415-~{Y4})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U602-GPO4-Pad5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G11"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U301-REGN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U412-QF)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U201-GPIO16-Pad16)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U602-RFIN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/R9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-VREG_AVDD)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G13"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J202-D--PadA7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Display_Unit/DISP-R_S_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B30"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q402A-B1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B15"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U409-QH)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U401-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G22"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U301-OTG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G17"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U410-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U413-~{Y7})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U405-QC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B14"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/B20"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/G25"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q404B-B2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U417-~{Y3})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U101-GPIO43_ADC3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED_control/LED_matrix/+6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U101-QSPI_SD1-Pad74)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U407-QE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U402-QB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J102-Pin_4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-RFI*"
+      },
+      {
+        "netclass": "Board_0-Display_Power",
+        "pattern": "Board_0-+[0-9]*"
+      },
+      {
+        "netclass": "Board_0-Display Data",
+        "pattern": "Board_0-[RGB][0-9]*"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R22"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U301-BTST)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y5})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y4})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C616-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/SUBG-SCK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO39-Pad48)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y5})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-VBUS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y2})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO37-Pad46)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+22"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U601-EXT_LM-Pad17)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R23"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y0})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q411B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q413B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q201-E)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G22"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U602-GPO4-Pad5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+8"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q409B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y1})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q406B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-C_P_4"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C308-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-RFI2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+30"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Battery/SCL"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G14"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q412A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+19"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-VDD_A)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G9"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J202-SBU1-PadA8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-VREG_FB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U414-~{Y4})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J102-Pin_3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B26"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/D-CIPO"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G15"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G7"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+10"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G11"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U406-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{E0})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-XTO)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/BOOTSEL"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-USB_DP)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-QSPI_SD3-Pad70)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B4"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-USB_DM)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/SUBG-CS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+20"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/D-TX"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B8"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B27"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C620-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO14-Pad13)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G19"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+21"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B9"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-C_P_2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B19"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R7"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+31"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U412-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J201-Pin_2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-AGDC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G13"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_9"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q301B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q301A-C1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y7})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B10"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO43_ADC3-Pad54)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO10-Pad8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO28-Pad36)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO3-Pad80)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U602-GPO1-Pad10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y2})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-XOUT)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Battery/SOFT-OFF"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U301-TS1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B17"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G23"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U602-XIN)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R6"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/D-CS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y0})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y6})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U301-ILIM)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-RFI1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-RFO1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-TAD2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G27"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO18-Pad18)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y6})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R19"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_10"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO44_ADC4-Pad55)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U301-~{CE})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO30-Pad38)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U301-PMID-Pad23)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B29"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q403A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R26"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Battery/USB_D+"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J202-D--PadA7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(AE601-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO32-Pad40)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C218-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y7})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-CLK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J102-Pin_5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y3})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U414-~{Y2})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+25"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+27"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y6})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-QSPI_SD1-Pad74)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-GPIO43_ADC3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G12"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q405A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B12"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U602-GPO3-Pad6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U301-INT-Pad7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO4-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G16"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J101-Pin_2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Battery/SDA"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R25"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-GPIO41_ADC1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-QSPI_SD2-Pad73)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO16-Pad16)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-XIN)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(BT301-+)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/SUBG-FCS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/NFC-SCL"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q411A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U601-BSS-Pad29)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_8"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y7})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+24"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G30"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+23"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G31"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B23"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-XOUT)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO47_ADC7-Pad58)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-C_P_6"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-VDD_DR)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q408A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J201-Pin_3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q406A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J202-CC1-PadA5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C621-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q407A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+4"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J202-SBU2-PadB8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U602-VCON)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+14"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R15"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y2})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B20"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q414B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-VREG_LX)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q413A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B18"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q301A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO17-Pad17)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J301-CC1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B31"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y5})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/NFC-SDA"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B30"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO15-Pad14)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J301-CC2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R13"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_7"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+29"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y6})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R27"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q404A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(R107-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R28"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO29-Pad37)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R18"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U401-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO20-Pad20)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y5})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R9"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U411-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U404-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO1-Pad78)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R21"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J301-SBU2-PadB8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+13"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y5})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G6"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO41_ADC1-Pad52)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J101-Pin_3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-QSPI_SD0-Pad72)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y7})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-GPIO19)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-USB_DM)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO16-Pad16)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q407B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+28"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(R104-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(AE602-A)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q404B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q403B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Battery/USB_D-"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y1})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y4})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+15"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R12"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R31"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO38-Pad47)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G21"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO27-Pad28)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U301-STAT-Pad4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G29"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J202-VBUS-PadA9B4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G24"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R17"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U601-MOSI-Pad31)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B15"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B22"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q415A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO12-Pad11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U405-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C615-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-C_P_5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+17"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-USB_DP)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-QSPI_SD0-Pad72)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+12"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/RF/AAT_A"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J102-Pin_6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-VREG_LX)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-VREG_FB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U602-XOUT)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R14"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U410-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(BZ101-+)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U602-VCOP)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R4"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J102-Pin_4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-QSPI_SD2-Pad73)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO36-Pad45)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO46_ADC6-Pad57)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R10"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO9-Pad7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q409A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+6"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(BT301--)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y3})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(R206-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y4})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J202-VBUS-PadA9B4)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q414A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-RUN)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/RESET"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U409-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO0-Pad77)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO42_ADC2-Pad53)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO31-Pad39)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-XIN)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QA)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q415B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U402-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G28"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO2-Pad79)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-RFO2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-XTI)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-VREG_AVDD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y1})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-C_P_3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y2})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B14"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y2})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B16"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B11"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q402B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y0})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q408B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U403-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G25"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U301-OTG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R16"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-C_P_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q401B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U301-REGN)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U602-GPO2-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C118-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J202-D+-PadA6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-STOP"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y0})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U414-~{Y5}-Pad10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/RF/AAT_B"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U414-~{Y1})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(R304-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-GPIO8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q412B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-VDD_AM)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U201-QSPI_SS)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-QSPI_SCLK-Pad71)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R30"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/D-RX"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO11-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO15-Pad14)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B6"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+18"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_4"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO22-Pad22)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C304-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q410A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-QSPI_SCLK-Pad71)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U301-D+-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U408-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U601-MCU_CLK-Pad28)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U416-~{Y3})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y4})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U403-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-TAD1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J301-SBU1-PadA8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G10"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q401A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-GPIO40_ADC0)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U404-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B25"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-VREG_AVDD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+9"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q410B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U414-~{Y3})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(R207-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q416B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+16"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B13"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U602-RFIN)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q402A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QH)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_6"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U406-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO5-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U408-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_12"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G8"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R11"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO26-Pad27)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q405B-B2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B24"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-QSPI_SD1-Pad74)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U410-QG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+11"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J202-CC2-PadB5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO23-Pad23)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B21"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C618-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G17"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G26"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO13-Pad12)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/D-COPI"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/SUBG-SDA"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U412-QE)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-QSPI_SD3-Pad70)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B7"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y4})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO21-Pad21)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q416A-B1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y1})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U415-~{Y1})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R20"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U101-GPIO42_ADC2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C622-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U414-~{Y6}-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U409-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R24"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U411-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U101-GPIO19-Pad19)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G18"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U402-QC)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U418-~{Y3})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/D-SCK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U301-D--Pad3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO45_ADC5-Pad56)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+26"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(AE601-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G4"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U201-GPIO23-Pad23)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R29"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/B28"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/G20"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U414-~{Y7}-Pad7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y6})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-~{OE}"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U401-QB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U405-QF)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U407-QH'-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U601-IRQ-Pad27)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U601-VDD_D)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U417-~{Y7})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/+7"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U407-QD)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/LED_control/LED_matrix/R8"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y0})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U413-~{Y3})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Display_Unit/DISP-R_S_11"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-RFI*"
+      },
+      {
+        "netclass": "Board_1-Display_Power",
+        "pattern": "Board_1-+[0-9]*"
+      },
+      {
+        "netclass": "Board_1-Display Data",
+        "pattern": "Board_1-[RGB][0-9]*"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "bus_aliases": {},
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "top_level_sheets": [
+      {
+        "filename": "panel.kicad_sch",
+        "name": "panel",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
+  },
+  "sheets": [],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}
